@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yikai Zhang"
-description              : "CS PhD student at Univerisity of Wisconsin-Madison"
+description              : "CS PhD student at UW-Madison"
 repository               : "Arist12/arist12.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yikai Zhang"
   avatar           : "images/profile.jpg"
-  bio              : "Life is for experience"
+  bio              : "*Life is for experience*"
   location         : "Madison, WI, USA"
   employer         :
   pubmed           : 
