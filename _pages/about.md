@@ -36,7 +36,7 @@ redirect_from:
 </b> 
 [PDF](https://arxiv.org/pdf/2402.11296) | [Github](https://github.com/GAIR-NLP/Preference-Dissection) 
 \\
-J. Li, F. Zhou, S. Sun, *<ins>Y. Zhang</ins>*, H. Zhao, P. Liu
+J. Li, F. Zhou, S. Sun, ***<ins>Y. Zhang</ins>***, H. Zhao, P. Liu
 </div>
 
 
