@@ -2,7 +2,7 @@
 permalink: /
 title: "Thoughts Gallery"
 excerpt: ""
-author_profile: true
+author_profile: false
 redirect_from: 
   - /thoughts-gallery/
   - /thoughts-gallery.html
