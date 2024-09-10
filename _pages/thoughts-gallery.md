@@ -1,8 +1,8 @@
 ---
-permalink: /
+permalink: /#thoughts-gallery
 title: "Thoughts Gallery"
 excerpt: ""
-author_profile: false
+author_profile: true
 redirect_from: 
   - /thoughts-gallery/
   - /thoughts-gallery.html
