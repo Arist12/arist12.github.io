@@ -33,7 +33,11 @@ redirect_from:
 # 📖 Selected Publications
 <div class='paper-box-text' markdown="1">
 <b style="color:#1685a9;">Dissecting Human and LLM Preferences 
-</b> [PDF](https://arxiv.org/abs/2408.06941) [Github]()
+</b> 
+[PDF](https://arxiv.org/pdf/2402.11296) | [Github](https://github.com/GAIR-NLP/Preference-Dissection) 
 \\
 J. Li, F. Zhou, S. Sun, *<ins>Y. Zhang</ins>*, H. Zhao, P. Liu
 </div>
+
+
+
