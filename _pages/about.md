@@ -33,30 +33,30 @@ redirect_from:
 # 📖 Selected Publications
 <div class='paper-box-text' markdown="1">
 <b style="color:#1685a9;">Dissecting Human and LLM Preferences 
-</b> [PDF](https://arxiv.org/pdf/2402.11296) | [Github](https://github.com/GAIR-NLP/Preference-Dissection) \\
+</b> \\
 J. Li, F. Zhou, S. Sun, ***<ins>Y. Zhang</ins>***, H. Zhao, P. Liu \\
-**ACL, 2024**
+[PDF](https://arxiv.org/pdf/2402.11296) | [Github](https://github.com/GAIR-NLP/Preference-Dissection) | **ACL, 2024**
 </div>
 
 <div class='paper-box-text' markdown="1">
 <b style="color:#1685a9;">Extending LLMs' Context Window with 100 Samples
-</b> [PDF](https://arxiv.org/pdf/2401.07004) | [Github](https://github.com/GAIR-NLP/Entropy-ABF) \\
+</b>  \\
 ***<ins>Y. Zhang</ins>***, J. Li, P. Liu   \\
-**arXiv, 2024**
+[PDF](https://arxiv.org/pdf/2401.07004) | [Github](https://github.com/GAIR-NLP/Entropy-ABF) | **arXiv, 2024**
 </div>
 
 <div class='paper-box-text' markdown="1">
 <b style="color:#1685a9;">Pygmtools: A Python Graph Matching Toolkit
-</b> [PDF](http://jmlr.org/papers/v25/23-0572.html) | [Github](https://github.com/Thinklab-SJTU/pygmtools) \\
+</b>  \\
 R. Wang, Z. Guo, W. Pan, J. Ma, ***<ins>Y. Zhang</ins>***, N. Yang, Q. Liu, L. Wei, H. Zhang, C. Liu, Z. Jiang, X. Yang, J. Yan \\
-**Journal of Machine Learning Research, 2024**
+[PDF](http://jmlr.org/papers/v25/23-0572.html) | [Github](https://github.com/Thinklab-SJTU/pygmtools) | **Journal of Machine Learning Research, 2024**
 </div>
 
 <div class='paper-box-text' markdown="1">
 <b style="color:#1685a9;">C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models
-</b> [PDF](https://arxiv.org/abs/2305.08322) | [Github](https://github.com/hkust-nlp/ceval)) \\
+</b>  \\
 Y. Huang\*, Y. Bai\*, Z. Zhu, J. Zhang, J. Zhang, T. Su, J. Liu, C. Lv, ***<ins>Y. Zhang</ins>***, J. Lei, Y. Fu, M. Sun, J. He \\
-**NeurIPS (Datasets and Benchmarks track), 2023**
+[PDF](https://arxiv.org/abs/2305.08322) | [Github](https://github.com/hkust-nlp/ceval) | **NeurIPS (Datasets and Benchmarks track), 2023**
 </div>
 
 
