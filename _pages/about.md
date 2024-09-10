@@ -26,8 +26,14 @@ redirect_from:
 <a href='https://scholar.google.com/citations?user=I_EmXRYAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
 # 🎓 Educations
-- *2024.09 - (now)*, PhD in Computer Science, University of Wisconsin-Madison.
-- *2023.02 - 2023.07*, Exchange Student in Computer Science, EPFL.
-- *2020.09 - 2024.06*, Bachelor in Computer Science and Technology (IEEE Honor Class), Shanghai Jiao Tong University.
+- *2024.09 - (now)*, PhD in CS, University of Wisconsin-Madison.
+- *2023.02 - 2023.07*, Exchange Student in CS, EPFL.
+- *2020.09 - 2024.06*, Bachelor in CS (IEEE Honor Class), Shanghai Jiao Tong University.
 
 # 📖 Selected Publications
+<div class='paper-box-text' markdown="1">
+<b style="color:#1685a9;">Dissecting Human and LLM Preferences 
+</b> [PDF](https://arxiv.org/abs/2408.06941) [Github]()
+\\
+J. Li, F. Zhou, S. Sun, *<ins>Y. Zhang</ins>*, H. Zhao, P. Liu
+</div>
