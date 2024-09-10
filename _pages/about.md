@@ -21,7 +21,7 @@ redirect_from:
 
 ♍️  My research interest generally lies in large language models (LLMs). Currently, I'm very interested in exploring theoretical understanding of LLMs.
 
-📚 Prior to UW-Madison, I conducted research on long-context LLMs under the guidance of [Prof. Pengfei Liu](http://pfliu.com/). Before that, I worked closely with [Prof. Junxian He](https://jxhe.github.io/) and [Prof. Zhouhan Lin](https://hantek.github.io/).
+📚 Prior to UW-Madison, I conducted research on long-context LLMs under the guidance of [Prof. Pengfei Liu](http://pfliu.com/). Before that, I worked closely with [Prof. Junxian He](https://jxhe.github.io/).
 
 <a href='https://scholar.google.com/citations?user=I_EmXRYAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
