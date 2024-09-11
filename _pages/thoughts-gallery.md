@@ -1,11 +1,11 @@
 ---
-permalink: /#thoughts-gallery
+permalink: /thoughts
 title: "Thoughts Gallery"
 excerpt: ""
 author_profile: true
 redirect_from: 
-  - /#thoughts-gallery/
-  - /#thoughts-gallery.html
+  - /thoughts/
+  - /thoughts.html
 ---
 
 ## T.B.D
