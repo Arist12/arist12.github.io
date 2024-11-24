@@ -19,7 +19,7 @@ redirect_from:
 
 ✨ I'm currently a CS PhD student at UW-Madison. Before that, I got my bachelor from Shanghai Jiao Tong University, majoring in Computer Science and Technology (IEEE Honor Class).
 
-♍️  My research interest generally lies in large language models (LLMs). Currently, I'm very interested in exploring theoretical understanding of LLMs.
+♍️  My research interest generally lies in large language models (LLMs). Currently, I'm very interested in exploring LLM Efficiency.
 
 📚 Prior to UW-Madison, I conducted research on long-context LLMs under the guidance of [Prof. Pengfei Liu](http://pfliu.com/). Before that, I worked closely with [Prof. Junxian He](https://jxhe.github.io/).
 
