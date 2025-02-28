@@ -19,7 +19,7 @@ redirect_from:
 
 ✨ I'm currently a CS PhD student at UW-Madison. Before that, I got my bachelor from Shanghai Jiao Tong University, majoring in Computer Science and Technology (IEEE Honor Class).
 
-♍️  My research interest generally lies in LLM Efficiency. Currently, I'm very interested in exploring Inference Acceleration of LLMs.
+♍️ My research focus generally lies in LLM Efficiency. Currently, I'm interested in inference acceleration of LLMs.
 
 📚 Prior to UW-Madison, I conducted research on long-context LLMs under the guidance of [Prof. Pengfei Liu](http://pfliu.com/). Before that, I worked closely with [Prof. Junxian He](https://jxhe.github.io/) on tool learning and LLM Benchmarks.
 
@@ -59,7 +59,20 @@ Y. Huang\*, Y. Bai\*, Z. Zhu, J. Zhang, J. Zhang, T. Su, J. Liu, C. Lv, ***<ins>
 [PDF](https://arxiv.org/abs/2305.08322) | [Github](https://github.com/hkust-nlp/ceval) | NeurIPS (Datasets and Benchmarks track), 2023
 </div>
 
+# 🧑‍🌾 Work Experience
 
+- Amazon Web Services (AWS) Shanghai AI Lab, 2024.3-2024.7
+
+- Shanghai AI Lab, 2023.7-2023.10
+
+# 🏆 Awards
+- Shanghai Outstanding Graduate Award (上海市优秀毕业生), 2024
+
+- Ubiquant Scholarship (九坤极致未来奖学金), awarded to 10 students across SJTU, 2023
+
+- Longfor Foundation Scholarship (龙湖基金奖学金), 2021
+  
+- SJTU Outstanding Student Scholarship, 2020-2023
 
 
 
