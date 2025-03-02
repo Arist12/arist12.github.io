@@ -61,7 +61,7 @@ Y. Huang\*, Y. Bai\*, Z. Zhu, J. Zhang, J. Zhang, T. Su, J. Liu, C. Lv, ***<ins>
 
 # 🧑‍🌾 Work Experience
 
-- Amazon Web Services (AWS) Shanghai AI Lab, 2024.3-2024.7
+- Amazon Web Services (AWS) Shanghai AI Lab, 2024.3-2024.8
 
 - Shanghai AI Lab, 2023.7-2023.10
 
