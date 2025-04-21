@@ -17,11 +17,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-✨ I'm currently a CS PhD student at UW-Madison. Before that, I got my bachelor from Shanghai Jiao Tong University, majoring in Computer Science and Technology (IEEE Honor Class).
+✨ I'm currently a CS PhD student at UW-Madison, working with [Prof. Junjie Hu](https://junjiehu.github.io/).
 
-♍️ My research interest generally lies in natural language processing, with a current focus on large language models.
+🏫 Before that, I got my bachelor from Shanghai Jiao Tong University, majoring in Computer Science and Technology (IEEE Honor Class).
 
-📚 Prior to UW-Madison, I conducted research on long-context LLMs under the guidance of [Prof. Pengfei Liu](http://pfliu.com/). Before that, I worked closely with [Prof. Junxian He](https://jxhe.github.io/) on tool learning and LLM Benchmarks.
+♍️ My research interest generally lies in natural language processing (NLP), with a current focus on large language models.
+
+🔬 Prior to UW-Madison, I conducted NLP research [Prof. Pengfei Liu](http://pfliu.com/) and [Prof. Junxian He](https://jxhe.github.io/).
 
 <a href='https://scholar.google.com/citations?user=I_EmXRYAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
@@ -66,13 +68,15 @@ Y. Huang\*, Y. Bai\*, Z. Zhu, J. Zhang, J. Zhang, T. Su, J. Liu, C. Lv, ***<ins>
 - Shanghai AI Lab, 2023.7-2023.10
 
 # 🏆 Awards
-- Shanghai Outstanding Graduate Award (上海市优秀毕业生), 2024
+- Shanghai Outstanding Graduate Award, 2024
 
-- Ubiquant Scholarship (九坤极致未来奖学金), awarded to 10 students across SJTU, 2023
+- Ubiquant Scholarship, awarded to 10 students across SJTU, 2023
 
-- Longfor Foundation Scholarship (龙湖基金奖学金), 2021
-  
 - SJTU Outstanding Student Scholarship, 2020-2023
+
+- Longfor Foundation Scholarship, 2021
+  
+
 
 
 
