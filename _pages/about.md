@@ -68,13 +68,13 @@ Y. Huang\*, Y. Bai\*, Z. Zhu, J. Zhang, J. Zhang, T. Su, J. Liu, C. Lv, ***<ins>
 - Shanghai AI Lab, 2023.7-2023.10
 
 # 🏆 Awards
-- Shanghai Outstanding Graduate Award, 2024
+- Shanghai Outstanding Graduate Award (top 5%), 2024
 
-- Ubiquant Scholarship, awarded to 10 students across SJTU, 2023
+- Ubiquant Scholarship (awarded to 10 students across SJTU), 2023
 
-- SJTU Outstanding Student Scholarship, 2020-2023
+- SJTU Outstanding Student Scholarship (top 10%), 2020-2023
 
-- Longfor Foundation Scholarship, 2021
+- Longfor Foundation Scholarship (top 5%), 2021
   
 
 
