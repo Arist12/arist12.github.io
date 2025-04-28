@@ -23,7 +23,7 @@ redirect_from:
 
 ♍️ My research interest generally lies in natural language processing (NLP), with a current focus on large language models.
 
-🔬 Prior to UW-Madison, I conducted NLP research [Prof. Pengfei Liu](http://pfliu.com/) and [Prof. Junxian He](https://jxhe.github.io/).
+🔬 Prior to UW-Madison, I conducted NLP research with [Prof. Pengfei Liu](http://pfliu.com/) and [Prof. Junxian He](https://jxhe.github.io/).
 
 <a href='https://scholar.google.com/citations?user=I_EmXRYAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
