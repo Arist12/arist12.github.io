@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-✨ I'm currently a CS PhD student at UW-Madison, working with [Prof. Junjie Hu](https://junjiehu.github.io/).
+✨ I'm currently a CS PhD student at UW-Madison.
 
 🏫 Before that, I got my bachelor from Shanghai Jiao Tong University, majoring in Computer Science and Technology (IEEE Honor Class).
 
