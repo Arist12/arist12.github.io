@@ -70,7 +70,7 @@ Y. Huang\*, Y. Bai\*, Z. Zhu, J. Zhang, J. Zhang, T. Su, J. Liu, C. Lv, ***<ins>
 # 🏆 Awards
 - Shanghai Outstanding Graduate Award (top 5%), 2024
 
-- Ubiquant Scholarship (awarded to 10 students across SJTU), 2023
+- Ubiquant Scholarship (九坤极致未来奖学金, awarded to 10 students across SJTU), 2023
 
 - SJTU Outstanding Student Scholarship (top 10%), 2020-2023
 
