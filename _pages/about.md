@@ -21,7 +21,7 @@ redirect_from:
 
 🏫 Before that, I got my bachelor from Shanghai Jiao Tong University, majoring in Computer Science and Technology (IEEE Honor Class).
 
-♍️ My research interest generally lies in natural language processing (NLP), with a current focus on large language models.
+♍️ My research interest generally lies in natural language processing (NLP), with a current focus on efficient LLMs (large language models).
 
 🔬 Prior to UW-Madison, I conducted NLP research with [Prof. Pengfei Liu](http://pfliu.com/) and [Prof. Junxian He](https://jxhe.github.io/).
 
