@@ -17,20 +17,19 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-✨ I'm currently a CS PhD student at UW-Madison.
+🏫 I'm currently a CS PhD student at UW-Madison. Before that, I did my bachelor at Computer Science (IEEE Honor Class), Shanghai Jiao Tong University.
 
-🏫 Before that, I got my bachelor from Shanghai Jiao Tong University, majoring in Computer Science and Technology (IEEE Honor Class).
+♍️ My research interest generally lies in natural language processing (NLP), with a current focus on large language models.
 
-♍️ My research interest generally lies in natural language processing (NLP), with a current focus on efficient LLMs (large language models).
-
-🔬 Prior to UW-Madison, I conducted NLP research with [Prof. Pengfei Liu](http://pfliu.com/) and [Prof. Junxian He](https://jxhe.github.io/).
+🔬 Prior to UW-Madison, I was fortunate to work with [Prof. Pengfei Liu](http://pfliu.com/) and [Prof. Junxian He](https://jxhe.github.io/).
 
 <a href='https://scholar.google.com/citations?user=I_EmXRYAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
 # 🎓 Educations
 - *2024.09 - (now)*, PhD in CS, University of Wisconsin-Madison.
+- *2020.09 - 2024.06*, B.Eng in CS (IEEE Honor Class), Shanghai Jiao Tong University.
 - *2023.02 - 2023.07*, Exchange Student in CS, EPFL.
-- *2020.09 - 2024.06*, Bachelor in CS (IEEE Honor Class), Shanghai Jiao Tong University.
+
 
 # 📖 Selected Publications
 <div class='paper-box-text' markdown="1">
@@ -70,7 +69,7 @@ Y. Huang\*, Y. Bai\*, Z. Zhu, J. Zhang, J. Zhang, T. Su, J. Liu, C. Lv, ***<ins>
 # 🏆 Awards
 - Shanghai Outstanding Graduate Award (top 5%), 2024
 
-- Ubiquant Scholarship (九坤极致未来奖学金, awarded to 10 students across SJTU), 2023
+- Ubiquant Scholarship (awarded to 10 students across SJTU), 2023
 
 - SJTU Outstanding Student Scholarship (top 10%), 2020-2023
 
