@@ -17,9 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-🏫 I'm currently a CS PhD student at UW-Madison. Before that, I did my bachelor at Computer Science (IEEE Honor Class), Shanghai Jiao Tong University.
+🏫 I'm a second-year CS PhD student at UW-Madison. Before that, I did my B.Eng in Computer Science (IEEE Honor Class) at Shanghai Jiao Tong University.
 
-♍️ My research interest generally lies in natural language processing (NLP), with a current focus on large language models.
+♍️ I enjoy coding and reading. I'm driven by an insatiable curiosity about how complex systems actually work. My research focuses on large language models.
 
 🔬 Prior to UW-Madison, I was fortunate to work with [Prof. Pengfei Liu](http://pfliu.com/) and [Prof. Junxian He](https://jxhe.github.io/).
 
@@ -62,7 +62,7 @@ Y. Huang\*, Y. Bai\*, Z. Zhu, J. Zhang, J. Zhang, T. Su, J. Liu, C. Lv, ***<ins>
 
 # 🧑‍🌾 Work Experience
 
-- Microsoft, Cloud+AI, 2025.6-Now
+- Microsoft CoreAI, 2025.6-Now
 
 - Amazon Web Services (AWS) Shanghai AI Lab, 2024.3-2024.8
 
@@ -76,8 +76,3 @@ Y. Huang\*, Y. Bai\*, Z. Zhu, J. Zhang, J. Zhang, T. Su, J. Liu, C. Lv, ***<ins>
 - SJTU Outstanding Student Scholarship (top 10%), 2020-2023
 
 - Longfor Foundation Scholarship (top 5%), 2021
-  
-
-
-
-
