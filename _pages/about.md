@@ -17,11 +17,12 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-🏫 I'm a second-year CS PhD student at UW-Madison. Before that, I did my B.Eng in Computer Science (IEEE Honor Class) at Shanghai Jiao Tong University.
+🏫 I'm a second-year CS PhD student at UW-Madison. Before that, I did my B.Eng in Computer Science (IEEE Honor Class) at Shanghai Jiao Tong University, and was fortunate to work with [Prof. Pengfei Liu](http://pfliu.com/) and [Prof. Junxian He](https://jxhe.github.io/).
 
-♍️ I enjoy coding and reading. I'm driven by an insatiable curiosity about how complex systems actually work. My research focuses on large language models.
+♍️ I'm driven by an insatiable curiosity about how complex systems actually work. My research focuses on large language models.
 
-🔬 Prior to UW-Madison, I was fortunate to work with [Prof. Pengfei Liu](http://pfliu.com/) and [Prof. Junxian He](https://jxhe.github.io/).
+🚀 I'm currently an intern at Microsoft Core AI, training coding agents.
+
 
 <a href='https://scholar.google.com/citations?user=I_EmXRYAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
@@ -32,6 +33,13 @@ redirect_from:
 
 
 # 📖 Selected Publications
+<div class='paper-box-text' markdown="1">
+<b style="color:#1685a9;">R-KV: Redundancy-aware KV Cache Compression for Reasoning Models
+</b> \\
+Z. Cai, W. Xiao, H. Sun, C. Luo, ***<ins>Y. Zhang</ins>***, K. Wan, et al. \\
+[PDF](https://arxiv.org/abs/2505.24133) | [Github](https://github.com/Zefan-Cai/R-KV) | NeurIPS, 2025
+</div>
+
 <div class='paper-box-text' markdown="1">
 <b style="color:#1685a9;">Dissecting Human and LLM Preferences 
 </b> \\
@@ -49,7 +57,7 @@ J. Li, F. Zhou, S. Sun, ***<ins>Y. Zhang</ins>***, H. Zhao, P. Liu \\
 <div class='paper-box-text' markdown="1">
 <b style="color:#1685a9;">Pygmtools: A Python Graph Matching Toolkit
 </b>  \\
-R. Wang, Z. Guo, W. Pan, J. Ma, ***<ins>Y. Zhang</ins>***, N. Yang, Q. Liu, L. Wei, H. Zhang, C. Liu, Z. Jiang, X. Yang, J. Yan \\
+R. Wang, Z. Guo, W. Pan, J. Ma, ***<ins>Y. Zhang</ins>***, ... \\
 [PDF](http://jmlr.org/papers/v25/23-0572.html) | [Github](https://github.com/Thinklab-SJTU/pygmtools) | Journal of Machine Learning Research, 2024
 </div>
 
