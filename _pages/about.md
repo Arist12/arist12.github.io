@@ -57,7 +57,7 @@ J. Li, F. Zhou, S. Sun, ***<ins>Y. Zhang</ins>***, H. Zhao, P. Liu \\
 <div class='paper-box-text' markdown="1">
 <b style="color:#1685a9;">Pygmtools: A Python Graph Matching Toolkit
 </b>  \\
-R. Wang, Z. Guo, W. Pan, J. Ma, ***<ins>Y. Zhang</ins>***, ... \\
+R. Wang, Z. Guo, W. Pan, J. Ma, ***<ins>Y. Zhang</ins>***, et al. \\
 [PDF](http://jmlr.org/papers/v25/23-0572.html) | [Github](https://github.com/Thinklab-SJTU/pygmtools) | JMLR, 2024
 </div>
 
