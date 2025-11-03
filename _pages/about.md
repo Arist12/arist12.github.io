@@ -19,9 +19,9 @@ redirect_from:
 
 🏫 I'm a second-year CS PhD student at UW-Madison. Before that, I did my B.Eng in Computer Science (IEEE Honor Class) at Shanghai Jiao Tong University, and was fortunate to work with [Prof. Pengfei Liu](http://pfliu.com/) and [Prof. Junxian He](https://jxhe.github.io/).
 
-♍️ I'm driven by an insatiable curiosity about how complex systems actually work. My research focuses on large language models.
+♍️ What drives me is the curiosity to understand how complex systems work.
 
-🚀 I'm currently an intern at Microsoft Core AI, training coding agents.
+🚀 As a research intern at Microsoft, I currently focus on training code agents with reinforcement learning.
 
 
 <a href='https://scholar.google.com/citations?user=I_EmXRYAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
@@ -70,14 +70,14 @@ Y. Huang\*, Y. Bai\*, Z. Zhu, J. Zhang, J. Zhang, T. Su, J. Liu, C. Lv, ***<ins>
 
 # 🧑‍🌾 Work Experience
 
-- Microsoft CoreAI, 2025.6-Now
+- Microsoft, 2025.6-Now
 
 - Amazon Web Services (AWS) Shanghai AI Lab, 2024.3-2024.8
 
 - Shanghai AI Lab, 2023.7-2023.10
 
 # 🏆 Awards
-- Shanghai Outstanding Graduate Award (top 5%), 2024
+- Shanghai Outstanding Graduate (top 5%), 2024
 
 - Ubiquant Scholarship (awarded to 10 students across SJTU), 2023
 
