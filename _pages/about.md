@@ -17,9 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-🏫 I'm a second-year CS PhD student at UW-Madison. Before that, I did my B.Eng in Computer Science (IEEE Honor Class) at Shanghai Jiao Tong University, and was fortunate to work with [Prof. Pengfei Liu](http://pfliu.com/) and [Prof. Junxian He](https://jxhe.github.io/).
+🏫 I'm a second-year CS PhD student at UW-Madison. Before that, I completed my B.Eng in Computer Science (IEEE Honor Class) at Shanghai Jiao Tong University, where I was fortunate to work with [Prof. Pengfei Liu](http://pfliu.com/) and [Prof. Junxian He](https://jxhe.github.io/).
 
-♍️ What drives me is the curiosity to understand how complex systems work.
+♍️ I'm driven by the curiosity to understand how complex systems work.
 
 🚀 As a research intern at Microsoft, I currently focus on training code agents with reinforcement learning.
 
