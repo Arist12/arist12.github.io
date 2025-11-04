@@ -19,9 +19,9 @@ redirect_from:
 
 🏫 I'm a second-year CS PhD student at UW-Madison. Before that, I completed my B.Eng in Computer Science (IEEE Honor Class) at Shanghai Jiao Tong University, where I was fortunate to work with [Prof. Pengfei Liu](http://pfliu.com/) and [Prof. Junxian He](https://jxhe.github.io/).
 
-♍️ I'm driven by the curiosity to understand how complex systems work.
+♍️ My research focuses on large language models. I'm driven by the curiosity to understand how complex systems work.
 
-🚀 As a research intern at Microsoft, I currently focus on training code agents with reinforcement learning.
+🚀 As a research intern at Microsoft, I currently focus on agentic RL training.
 
 
 <a href='https://scholar.google.com/citations?user=I_EmXRYAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
