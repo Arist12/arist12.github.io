@@ -21,13 +21,12 @@ redirect_from:
 
 ♍️ My research focuses on large language models. I'm driven by the curiosity to understand how complex systems work.
 
-🚀 As a research intern at Microsoft, I currently focus on agentic RL training.
-
+🚀 I'm currently developing LLM coding agent in Microsoft.
 
 <a href='https://scholar.google.com/citations?user=I_EmXRYAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
 # 🎓 Educations
-- *2024.09 - (now)*, PhD in CS, University of Wisconsin-Madison.
+- *2024.09 - (now)*, Ph.D. in CS, University of Wisconsin-Madison.
 - *2020.09 - 2024.06*, B.Eng in CS (IEEE Honor Class), Shanghai Jiao Tong University.
 - *2023.02 - 2023.07*, Exchange Student in CS, EPFL.
 
@@ -69,8 +68,7 @@ Y. Huang\*, Y. Bai\*, Z. Zhu, J. Zhang, J. Zhang, T. Su, J. Liu, C. Lv, ***<ins>
 </div>
 
 # 🧑‍🌾 Work Experience
-
-- Microsoft, 2025.6-Now
+- Code and AI, CoreAI, Microsoft, 2025.6-2026.1
 
 - Amazon Web Services (AWS) Shanghai AI Lab, 2024.3-2024.8
 
