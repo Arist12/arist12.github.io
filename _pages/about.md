@@ -68,11 +68,10 @@ Y. Huang\*, Y. Bai\*, Z. Zhu, J. Zhang, J. Zhang, T. Su, J. Liu, C. Lv, ***<ins>
 </div>
 
 # 🧑‍🌾 Work Experience
-- Code and AI, CoreAI, Microsoft, 2025.6-2026.1
-
-- Amazon Web Services (AWS) Shanghai AI Lab, 2024.3-2024.8
-
-- Shanghai AI Lab, 2023.7-2023.10
+- Research Scientist Intern, AMD, Jan 2025 – Present
+- Applied Scientist Intern, Microsoft, Jun 2025 – Jan 2026
+- Applied Scientist Intern, Amazon Web Services (AWS), Mar 2024 – Aug 2024
+- Research Intern, Shanghai AI Lab, Jul 2023 – Oct 2023
 
 # 🏆 Awards
 - Shanghai Outstanding Graduate (top 5%), 2024
