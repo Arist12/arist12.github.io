@@ -17,11 +17,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-🏫 I'm a second-year CS PhD student at UW-Madison. Before that, I completed my B.Eng in Computer Science (IEEE Honor Class) at Shanghai Jiao Tong University, where I was fortunate to work with [Prof. Pengfei Liu](http://pfliu.com/) and [Prof. Junxian He](https://jxhe.github.io/).
+# 👋 About Me
 
-💡 My research focuses on large language models. I'm driven by curiosity about how complex systems work.
+I'm a second-year CS PhD student at **University of Wisconsin-Madison**. I completed my B.Eng in Computer Science (IEEE Honor Class) at **Shanghai Jiao Tong University**, where I was fortunate to work with [Prof. Pengfei Liu](http://pfliu.com/) and [Prof. Junxian He](https://jxhe.github.io/).
 
-🚀 I'm currently developing LLM coding agents at Microsoft.
+My research focuses on **large language models**, particularly in developing intelligent coding agents. I'm driven by curiosity about how complex systems work and how we can make AI systems more capable and efficient.
 
 <a href='https://scholar.google.com/citations?user=I_EmXRYAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
@@ -32,6 +32,13 @@ redirect_from:
 
 
 # 📖 Selected Publications
+<div class='paper-box-text' markdown="1">
+<b style="color:#1685a9;">SWE-Edit: Rethinking Code Editing for Efficient SWE-Agent
+</b> \\
+***<ins>Y. Zhang</ins>***, J. Pei, K. Li, et al. \\
+[Github](https://github.com/microsoft/SWE-Edit) | Preprint, 2026
+</div>
+
 <div class='paper-box-text' markdown="1">
 <b style="color:#1685a9;">R-KV: Redundancy-aware KV Cache Compression for Reasoning Models
 </b> \\
