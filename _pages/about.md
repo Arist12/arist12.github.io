@@ -32,7 +32,7 @@ I'm a Research Scientist at AMD, where I build LLM agents.
 <b style="color:#1685a9;">SWE-Edit: Rethinking Code Editing for Efficient SWE-Agent
 </b> \\
 ***<ins>Y. Zhang</ins>***, J. Pei, K. Li, et al. \\
-[GitHub](https://github.com/microsoft/SWE-Edit) | Preprint, 2026
+[GitHub](https://github.com/microsoft/SWE-Edit) | EMNLP (Findings), 2026
 </div>
 
 <div class='paper-box-text' markdown="1">
@@ -71,7 +71,7 @@ Y. Huang\*, Y. Bai\*, Z. Zhu, J. Zhang, J. Zhang, T. Su, J. Liu, C. Lv, ***<ins>
 </div>
 
 # 🧑‍🌾 Work Experience
-- Member of Technical Staff, AMD, Jun 2026 - Present
+- Research Scientist, AMD, Jun 2026 - Present
 - Research Scientist Intern, AMD, Jan 2026 - Jun 2026
 - Applied Scientist Intern, Microsoft, Jun 2025 – Dec 2026
 - Applied Scientist Intern, Amazon Web Services (AWS), Mar 2024 – Aug 2024
