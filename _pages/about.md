@@ -19,9 +19,7 @@ redirect_from:
 
 # 👋 About Me
 
-I'm a Member of Technical Staff at AMD, where I build LLM agents. 
-
-My research interests center on large language models, and I'm driven by curiosity about how complex systems work and how we can make AI systems more capable and efficient.
+I'm a Research Scientist at AMD, where I build LLM agents. 
 
 <a href='https://scholar.google.com/citations?user=I_EmXRYAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
