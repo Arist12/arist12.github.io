@@ -51,6 +51,17 @@ p {
 .site-shell {
   width: min(100% - 64px, 672px);
   margin-inline: auto;
+  min-height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+.site-shell > main {
+  flex: 1 0 auto;
+}
+.site-shell > .site-header,
+.site-shell > .site-footer {
+  flex-shrink: 0;
 }
 .site-header {
   height: 143px;
