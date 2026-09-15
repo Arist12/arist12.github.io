@@ -1,0 +1,36 @@
+---
+import Layout from '../layouts/Layout.astro';
+import '@fontsource/cormorant-garamond/latin-500-italic.css';
+import SiteHeader from '../components/SiteHeader.astro';
+import SocialLinks from '../components/SocialLinks.astro';
+import { profile } from '../data/profile';
+import { publishedPosts } from '../lib/posts';
+import PostList from '../components/PostList.astro';
+interface Props { nameStyle?: string; preview?: boolean; }
+const { nameStyle, preview = false } = Astro.props;
+const posts = await publishedPosts();
+---
+<Layout noindex={preview}>
+  <SiteHeader active="about" />
+  <main id="main">
+    <section class="intro" aria-labelledby="intro-title">
+      <h1 id="intro-title" style={nameStyle}>{profile.name}</h1>
+      <p class="intro-line">I work on LLMs <span class="at">@</span> <span class="company-name">{profile.employer.name}</span>.</p>
+      <SocialLinks />
+    </section>
+    <section class="detail-section education" aria-labelledby="education-title">
+      <h2 id="education-title">Education</h2>
+      <div class="education-list">
+        {profile.education.map(item => <div class="education-item">
+          <div><h3>{item.school}</h3><p>{item.degree}</p></div>
+          <span class="years">{item.years}</span>
+        </div>)}
+      </div>
+    </section>
+    {posts.length > 0 && <section class="detail-section writing-section" aria-labelledby="writing-title"><h2 id="writing-title"><a href="/writing/">Writing</a></h2><PostList posts={posts.slice(0, 3)} /></section>}
+    <section class="detail-section contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact</h2>
+      <div class="email-list">{profile.emails.map(email => <a href={`mailto:${email}`}>{email}<span aria-hidden="true">↗</span></a>)}</div>
+    </section>
+  </main>
+</Layout>

@@ -1,0 +1,14 @@
+---
+import { getEntry, render } from 'astro:content';
+import ArticleLayout from '../../layouts/ArticleLayout.astro';
+import FontPreview from '../../components/FontPreview.astro';
+
+// A local design preview only. No route is generated in production builds.
+export function getStaticPaths() {
+  return import.meta.env.DEV ? ['article', 'fonts'].map(id => ({ params: { id } })) : [];
+}
+const post = await getEntry('posts', 'first-post');
+if (!post) throw new Error('The article preview needs src/content/posts/first-post.md.');
+const { Content } = await render(post);
+---
+{Astro.params.id === 'fonts' ? <FontPreview /> : <ArticleLayout {...post.data} preview><Content /></ArticleLayout>}

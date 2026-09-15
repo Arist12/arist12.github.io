@@ -1,0 +1,13 @@
+---
+import HomePage from '../../../components/HomePage.astro';
+import { fontOptions } from '../../../data/font-options';
+import '../../../styles/font-preview.css';
+
+export function getStaticPaths() {
+  return import.meta.env.DEV
+    ? fontOptions.map(option => ({ params: { font: option.id }, props: { option } }))
+    : [];
+}
+const { option } = Astro.props;
+---
+<HomePage nameStyle={option.style} preview />

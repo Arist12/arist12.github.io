@@ -1,0 +1,28 @@
+---
+import Layout from './Layout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import { profile } from '../data/profile';
+import { formatDate } from '../lib/posts';
+interface Props {
+  title: string;
+  description: string;
+  date: Date;
+  preview?: boolean;
+}
+const { title, description, date, preview = false } = Astro.props;
+---
+<Layout title={`${title} — ${profile.name}`} description={description} noindex={preview} article>
+  <SiteHeader active="writing" />
+  <main id="main" class="article-page">
+    <article>
+      <header class="article-header">
+        {preview && <p class="preview-label">Layout preview · unpublished</p>}
+        <h1>{title}</h1>
+        <p class="article-description">{description}</p>
+        <div class="article-meta"><span>{profile.name}</span><span aria-hidden="true">·</span><time datetime={date.toISOString()}>{formatDate(date)}</time></div>
+      </header>
+      <div class="prose"><slot /></div>
+      <nav class="article-bottom" aria-label="Article navigation"><a class="back-link" href="/writing/">← All writing</a></nav>
+    </article>
+  </main>
+</Layout>

@@ -1,0 +1,14 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
+import PostList from '../../components/PostList.astro';
+import { publishedPosts } from '../../lib/posts';
+const posts = await publishedPosts();
+---
+<Layout title="Writing — Yikai Zhang" description="Writing by Yikai Zhang.">
+  <SiteHeader active="writing" />
+  <main id="main" class="writing-page">
+    <h1>Writing</h1>
+    {posts.length > 0 ? <PostList posts={posts} variant="archive" /> : <p class="empty-state">Notes and essays, coming soon.</p>}
+  </main>
+</Layout>

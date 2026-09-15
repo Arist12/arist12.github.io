@@ -1,0 +1,11 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { formatDate } from '../lib/posts';
+interface Props { posts: CollectionEntry<'posts'>[]; variant?: 'compact' | 'archive' }
+const { posts, variant = 'compact' } = Astro.props;
+---
+<ul class:list={['post-list', { 'post-list-archive': variant === 'archive' }]}>{posts.map(post => <li>
+  <a href={`/writing/${post.id}/`}>
+    <div class="post-summary"><span class="post-title">{post.data.title}</span>{variant === 'archive' && <p>{post.data.description}</p>}</div><time datetime={post.data.date.toISOString()}>{formatDate(post.data.date)}</time>
+  </a>
+</li>)}</ul>

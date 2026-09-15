@@ -1,0 +1,18 @@
+---
+interface Props { active?: 'about' | 'writing'; }
+const { active } = Astro.props;
+const links = [
+  { id: 'about', label: 'About', href: '/' },
+  { id: 'writing', label: 'Writing', href: '/writing/' },
+] as const;
+---
+<header class="site-header">
+  <a class="monogram" href="/" aria-label="Yikai Zhang, home">yz<span>.</span></a>
+  <nav class="site-nav" aria-label="Main navigation">
+    {links.map(link => <a
+      href={link.href}
+      class:list={{ 'is-active': active === link.id }}
+      aria-current={active === link.id ? (Astro.url.pathname === link.href ? 'page' : 'location') : undefined}
+    ><span>{link.label}</span></a>)}
+  </nav>
+</header>
