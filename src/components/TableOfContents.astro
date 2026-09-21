@@ -1,0 +1,16 @@
+---
+import type { MarkdownHeading } from 'astro';
+interface Props { headings: MarkdownHeading[] }
+// `footnote-label` is the visually hidden heading GitHub-flavoured footnotes emit.
+const items = Astro.props.headings.filter(
+  heading => (heading.depth === 2 || heading.depth === 3) && heading.slug !== 'footnote-label',
+);
+---
+{items.length > 2 && (
+  <nav class="toc" aria-labelledby="toc-title">
+    <p id="toc-title" class="toc-title">Contents</p>
+    <ol>{items.map(item => (
+      <li class={`toc-h${item.depth}`}><a href={`#${item.slug}`}>{item.text}</a></li>
+    ))}</ol>
+  </nav>
+)}

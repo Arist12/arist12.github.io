@@ -579,8 +579,108 @@ p {
   line-height: 1.7;
   text-align: center;
 }
+.prose .figure-label {
+  color: #3c3f47;
+  font-weight: 550;
+}
+/* Lets a diagram breathe past the 672px reading column. */
+.prose .figure-wide {
+  position: relative;
+  left: 50%;
+  width: min(100vw - 80px, 920px);
+  transform: translateX(-50%);
+}
 .prose :is(h2, h3, h4) {
   scroll-margin-top: 32px;
+}
+.toc {
+  margin-top: 34px;
+  padding: 18px 22px;
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  font-size: 0.9375rem;
+}
+.toc-title {
+  margin: 0 0 10px;
+  color: var(--muted);
+  font-size: 0.75rem;
+  font-weight: 550;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.toc ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.toc li {
+  margin: 4px 0;
+  line-height: 1.6;
+}
+.toc-h3 {
+  padding-left: 18px;
+  font-size: 0.875rem;
+}
+.toc a {
+  color: inherit;
+  text-decoration: none;
+}
+.toc a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.prose .callout-title {
+  font-weight: 550;
+}
+.prose .callout-warning {
+  background: #fdf4ec;
+}
+.prose .diagram {
+  margin: 32px 0;
+  overflow-x: auto;
+}
+.prose figure .diagram {
+  margin: 0;
+}
+.prose .graphviz {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.prose .graphviz text {
+  font-family: 'Inter Variable', Inter, system-ui, sans-serif;
+}
+.prose .katex-display {
+  margin: 1.4em 0;
+  padding: 2px 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.prose .footnotes {
+  margin-top: 48px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.9375rem;
+}
+.prose .footnotes li {
+  scroll-margin-top: 32px;
+}
+.prose .footnotes p {
+  margin: 0.5em 0;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
 }
 @media (max-width: 700px) {
   .writing-page > h1 {

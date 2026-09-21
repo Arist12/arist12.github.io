@@ -9,6 +9,6 @@ export function getStaticPaths() {
 }
 const post = await getEntry('posts', 'first-post');
 if (!post) throw new Error('The article preview needs src/content/posts/first-post.md.');
-const { Content } = await render(post);
+const { Content, headings } = await render(post);
 ---
-{Astro.params.id === 'fonts' ? <FontPreview /> : <ArticleLayout {...post.data} preview><Content /></ArticleLayout>}
+{Astro.params.id === 'fonts' ? <FontPreview /> : <ArticleLayout {...post.data} headings={headings} preview><Content /></ArticleLayout>}
