@@ -1,0 +1,90 @@
+---
+description: Markdown syntax available when writing or enriching a blog post
+globs: src/content/posts/**/*.md
+alwaysApply: false
+---
+
+# Writing a post
+
+Posts live in `src/content/posts/<slug>.md` and publish to `/writing/<slug>/`.
+Everything below renders at build time — never add a `<script>` to a post.
+
+```yaml
+---
+title: "The title"
+description: "One sentence, used for search results and the archive list."
+date: 2026-09-21
+draft: true   # flip to false to publish
+---
+```
+
+Draft a new post with `draft: true` so the author can review it at
+`/writing/<slug>/` before it appears in any list, then flip the flag.
+
+## Syntax
+
+**Maths** — `$\sigma(z)_i$` inline, `$$ … $$` on its own lines for display. KaTeX.
+
+**Diagrams** — a fenced `dot` block becomes inline SVG via Graphviz.
+Mermaid is *not* supported; convert any mermaid to DOT.
+
+````markdown
+```dot
+digraph {
+  rankdir=LR;
+  node [shape=box style=rounded color="#c8cad0" penwidth=1.1];
+  Proposer -> Verifier [label="candidates"];
+}
+```
+````
+
+Default `fontname`/`fontsize`/transparent background are injected unless the
+source sets `fontname` itself. Keep palettes grey (`#c8cad0`, `#8b8e97`).
+
+**Figures** — captions auto-number as `Fig. 1.`, `Fig. 2.` per article, so never
+write the number by hand. Add `wide` to spill past the 672px reading column.
+
+```markdown
+:::figure{src="/images/ladder.svg" alt="Four bars of increasing length."}
+Caption text, which may contain *emphasis*, `code` and [links](/writing/).
+:::
+```
+
+To caption a diagram, nest it in the same directive:
+
+````markdown
+:::figure{wide}
+```dot
+digraph { a -> b }
+```
+The caption must be the LAST paragraph; everything above it is the figure body.
+:::
+````
+
+**Callouts** — `:::note`, `:::aside`, `:::warning`, optional title in brackets:
+
+```markdown
+:::note[A small aside]
+A useful detail that would break the flow of the argument.
+:::
+```
+
+**References** — ordinary Markdown footnotes (`[^key]`) collect themselves into a
+styled list at the end. Use these for citations rather than a hand-rolled list.
+
+## Richer visuals
+
+For anything DOT cannot express (annotated, multi-layer explanatory figures),
+hand-author an SVG into `public/images/` and reference it with `:::figure{src=…}`.
+Set a `viewBox`, no fixed `width`/`height`, `role="img"` and an `aria-label`; use
+`Inter, system-ui, sans-serif` and the greys above so it matches the page.
+
+A table of contents appears automatically at 3+ `##`/`###` headings — don't write one.
+
+## Verify
+
+Always finish with `npm run check`. Plain `npm run build` reuses a cached content
+store, which hides a broken diagram behind an empty but successfully built page;
+`check` clears that cache first and exits non-zero on a bad DOT block.
+
+To look at the result, `npm run dev` and open the post (`npx astro dev stop` after).

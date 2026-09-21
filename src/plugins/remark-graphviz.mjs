@@ -14,6 +14,23 @@ const DEFAULTS = [
 
 let graphviz;
 
+// Astro's content loader swallows per-file render errors and still emits the
+// page, so a bad diagram would otherwise deploy as a silently empty article.
+// The integration below turns those into a failed build.
+const failures = [];
+
+export function graphvizBuildGuard() {
+  return {
+    name: 'graphviz-build-guard',
+    hooks: {
+      'astro:build:done': () => {
+        if (failures.length === 0) return;
+        throw new Error(`Diagrams failed to render:\n  ${failures.join('\n  ')}`);
+      },
+    },
+  };
+}
+
 function withDefaults(source) {
   if (/fontname/i.test(source)) return source;
   return source.replace(/\{/, `{\n  ${DEFAULTS}`);
@@ -50,7 +67,9 @@ export function remarkGraphviz() {
       try {
         svg = graphviz.dot(withDefaults(node.value));
       } catch (error) {
-        throw new Error(`Invalid DOT diagram in ${file.path ?? 'markdown'}: ${error.message}`);
+        const message = `Invalid DOT diagram in ${file.path ?? 'markdown'}: ${error.message}`;
+        failures.push(message);
+        throw new Error(message);
       }
       parent.children[index] = {
         type: 'html',

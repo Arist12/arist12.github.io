@@ -32,7 +32,7 @@ $$
 A fenced `dot` block becomes an SVG diagram at build time. Nothing is rendered
 in the reader's browser.
 
-::::figure{wide}
+:::figure{wide}
 ```dot
 digraph {
   rankdir=LR;
@@ -50,7 +50,7 @@ digraph {
 ```
 The verification loop. A proposer is cheap, the verifier is not, and a world
 model stands in for the verifier on everything that is not worth measuring.
-::::
+:::
 
 To place a caption under a drawing you made elsewhere, point the same directive
 at a file in `public/images/`:

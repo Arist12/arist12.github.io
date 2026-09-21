@@ -69,20 +69,19 @@ digraph { rankdir=LR; Proposer -> Verifier -> Proposer; }
 **Figures and captions.** Wrap anything in a `figure` directive to get a centred,
 automatically numbered caption (`Fig. 1.`, `Fig. 2.`, … per article). Point it at
 a file with `src`, or nest a diagram inside it. Add `wide` to let a figure spill
-past the reading column. Note the four colons when the body contains a fenced
-code block:
+past the reading column. The caption is always the last paragraph in the block:
 
 ```markdown
 :::figure{src="/images/ladder.svg" alt="Four bars of increasing length."}
 The caption, which may contain *emphasis* and [links](/writing/).
 :::
 
-::::figure{wide}
+:::figure{wide}
 ```dot
 digraph { a -> b }
 ```
 The caption goes last; everything above it is the figure body.
-::::
+:::
 ```
 
 **Callouts.** `:::note`, `:::aside` and `:::warning`, with an optional title in
