@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 104" role="img" aria-label="Eight base-model samples on getmoto/moto-4846. With the original issue none of the eight passes; with one sentence appended to the issue, seven of eight pass.">
+  <style>
+    text { font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; fill: #3c3f47; }
+    .title { font-size: 15px; font-weight: 650; fill: #25262a; }
+    .sub { font-size: 13px; fill: #74767e; }
+    .lab { font-size: 14px; }
+    .val { font-size: 14px; font-weight: 650; fill: #25262a; }
+    .big { font-size: 17px; font-weight: 650; fill: #25262a; }
+    .tick { font-size: 12.5px; fill: #74767e; }
+    .in { font-size: 13px; font-weight: 650; fill: #ffffff; }
+    .ind { font-size: 13px; font-weight: 650; fill: #25262a; }
+    .grid { stroke: #e6e6e9; stroke-width: 1; }
+    .axis { stroke: #c8cad0; stroke-width: 1; }
+    .halo { paint-order: stroke; stroke: #fcfcfc; stroke-width: 5px; stroke-linejoin: round; }
+  </style>
+  <text class="lab" x="0.0" y="31.0">Original issue</text>
+  <circle cx="232" cy="26" r="11" fill="#e3e4e8" />
+  <circle cx="263" cy="26" r="11" fill="#e3e4e8" />
+  <circle cx="294" cy="26" r="11" fill="#e3e4e8" />
+  <circle cx="325" cy="26" r="11" fill="#e3e4e8" />
+  <circle cx="356" cy="26" r="11" fill="#e3e4e8" />
+  <circle cx="387" cy="26" r="11" fill="#e3e4e8" />
+  <circle cx="418" cy="26" r="11" fill="#e3e4e8" />
+  <circle cx="449" cy="26" r="11" fill="#e3e4e8" />
+  <text class="val" x="472.0" y="31.0">0 of 8 pass</text>
+  <text class="lab" x="0.0" y="83.0">With one sentence appended</text>
+  <circle cx="232" cy="78" r="11" fill="#0ca30c" />
+  <path d="M227,78.5 l3.6,3.8 l6.4,-7.6" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="263" cy="78" r="11" fill="#0ca30c" />
+  <path d="M258,78.5 l3.6,3.8 l6.4,-7.6" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="294" cy="78" r="11" fill="#0ca30c" />
+  <path d="M289,78.5 l3.6,3.8 l6.4,-7.6" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="325" cy="78" r="11" fill="#0ca30c" />
+  <path d="M320,78.5 l3.6,3.8 l6.4,-7.6" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="356" cy="78" r="11" fill="#0ca30c" />
+  <path d="M351,78.5 l3.6,3.8 l6.4,-7.6" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="387" cy="78" r="11" fill="#0ca30c" />
+  <path d="M382,78.5 l3.6,3.8 l6.4,-7.6" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="418" cy="78" r="11" fill="#0ca30c" />
+  <path d="M413,78.5 l3.6,3.8 l6.4,-7.6" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="449" cy="78" r="11" fill="#e3e4e8" />
+  <text class="val" x="472.0" y="83.0">7 of 8 pass</text>
+</svg>

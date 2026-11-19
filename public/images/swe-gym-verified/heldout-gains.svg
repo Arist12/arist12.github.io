@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 370" role="img" aria-label="Gain in pass@1 over the base model for three training sets. SWE-bench Verified: Orig +3.0, Orig+Filter +4.1, Clean +5.4 points. SWE-bench Pro: Orig −0.2, Orig+Filter −2.4, Clean +2.5 points.">
+  <style>
+    text { font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; fill: #3c3f47; }
+    .title { font-size: 15px; font-weight: 650; fill: #25262a; }
+    .sub { font-size: 13px; fill: #74767e; }
+    .lab { font-size: 14px; }
+    .val { font-size: 14px; font-weight: 650; fill: #25262a; }
+    .big { font-size: 17px; font-weight: 650; fill: #25262a; }
+    .tick { font-size: 12.5px; fill: #74767e; }
+    .in { font-size: 13px; font-weight: 650; fill: #ffffff; }
+    .ind { font-size: 13px; font-weight: 650; fill: #25262a; }
+    .grid { stroke: #e6e6e9; stroke-width: 1; }
+    .axis { stroke: #c8cad0; stroke-width: 1; }
+    .halo { paint-order: stroke; stroke: #fcfcfc; stroke-width: 5px; stroke-linejoin: round; }
+  </style>
+  <text class="title" x="0.0" y="16.0">SWE-bench Verified, 397 held-out tasks</text>
+  <text class="sub" x="640.0" y="16.0" text-anchor="end">mean gain</text>
+  <line class="grid" x1="122.0" y1="30.0" x2="122.0" y2="136.0" />
+  <line class="grid" x1="184.0" y1="30.0" x2="184.0" y2="136.0" />
+  <text class="tick" x="184.0" y="152.0" text-anchor="middle">−4</text>
+  <line class="grid" x1="246.0" y1="30.0" x2="246.0" y2="136.0" />
+  <line class="axis" x1="308.0" y1="30.0" x2="308.0" y2="136.0" />
+  <text class="tick" x="308.0" y="152.0" text-anchor="middle">0</text>
+  <line class="grid" x1="370.0" y1="30.0" x2="370.0" y2="136.0" />
+  <line class="grid" x1="432.0" y1="30.0" x2="432.0" y2="136.0" />
+  <text class="tick" x="432.0" y="152.0" text-anchor="middle">+4</text>
+  <line class="grid" x1="494.0" y1="30.0" x2="494.0" y2="136.0" />
+  <line class="grid" x1="556.0" y1="30.0" x2="556.0" y2="136.0" />
+  <text class="tick" x="556.0" y="152.0" text-anchor="middle">+8</text>
+  <text class="lab" x="0.0" y="52.0">Orig</text>
+  <path fill="#eb6834" d="M308.0,40.0 H397.0 Q401.0,40.0 401.0,44.0 V52.0 Q401.0,56.0 397.0,56.0 H308.0 Z" />
+  <text class="val" x="640.0" y="53.0" text-anchor="end">+3.0</text>
+  <text class="lab" x="0.0" y="86.0">Orig+Filter</text>
+  <path fill="#1baf7a" d="M308.0,74.0 H432.3 Q436.3,74.0 436.3,78.0 V86.0 Q436.3,90.0 432.3,90.0 H308.0 Z" />
+  <text class="val" x="640.0" y="87.0" text-anchor="end">+4.1</text>
+  <text class="lab" x="0.0" y="120.0">Clean</text>
+  <path fill="#2a78d6" d="M308.0,108.0 H472.6 Q476.6,108.0 476.6,112.0 V120.0 Q476.6,124.0 472.6,124.0 H308.0 Z" />
+  <text class="val" x="640.0" y="121.0" text-anchor="end">+5.4</text>
+  <text class="sub" x="339.0" y="172.0" text-anchor="middle">gain in pass@1 over the base model (57.2%), percentage points</text>
+  <text class="title" x="0.0" y="208.0">SWE-bench Pro, 638 tasks</text>
+  <text class="sub" x="640.0" y="208.0" text-anchor="end">mean gain</text>
+  <line class="grid" x1="122.0" y1="222.0" x2="122.0" y2="328.0" />
+  <line class="grid" x1="184.0" y1="222.0" x2="184.0" y2="328.0" />
+  <text class="tick" x="184.0" y="344.0" text-anchor="middle">−4</text>
+  <line class="grid" x1="246.0" y1="222.0" x2="246.0" y2="328.0" />
+  <line class="axis" x1="308.0" y1="222.0" x2="308.0" y2="328.0" />
+  <text class="tick" x="308.0" y="344.0" text-anchor="middle">0</text>
+  <line class="grid" x1="370.0" y1="222.0" x2="370.0" y2="328.0" />
+  <line class="grid" x1="432.0" y1="222.0" x2="432.0" y2="328.0" />
+  <text class="tick" x="432.0" y="344.0" text-anchor="middle">+4</text>
+  <line class="grid" x1="494.0" y1="222.0" x2="494.0" y2="328.0" />
+  <line class="grid" x1="556.0" y1="222.0" x2="556.0" y2="328.0" />
+  <text class="tick" x="556.0" y="344.0" text-anchor="middle">+8</text>
+  <text class="lab" x="0.0" y="244.0">Orig</text>
+  <path fill="#eb6834" d="M308.0,232.0 H304.6 Q300.6,232.0 300.6,236.0 V244.0 Q300.6,248.0 304.6,248.0 H308.0 Z" />
+  <text class="val" x="640.0" y="245.0" text-anchor="end">−0.2</text>
+  <text class="lab" x="0.0" y="278.0">Orig+Filter</text>
+  <path fill="#1baf7a" d="M308.0,266.0 H239.2 Q235.2,266.0 235.2,270.0 V278.0 Q235.2,282.0 239.2,282.0 H308.0 Z" />
+  <text class="val" x="640.0" y="279.0" text-anchor="end">−2.4</text>
+  <text class="lab" x="0.0" y="312.0">Clean</text>
+  <path fill="#2a78d6" d="M308.0,300.0 H380.3 Q384.3,300.0 384.3,304.0 V312.0 Q384.3,316.0 380.3,316.0 H308.0 Z" />
+  <text class="val" x="640.0" y="313.0" text-anchor="end">+2.5</text>
+  <text class="sub" x="339.0" y="364.0" text-anchor="middle">gain in pass@1 over the base model (53.8%), percentage points</text>
+</svg>

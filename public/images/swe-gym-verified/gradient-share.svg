@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 253" role="img" aria-label="Two stacked bars for the original training set. Of its 512 tasks, 11.1% are flawed and never solved and 16.6% flawed and sometimes solved. Of its 2,365 groups that carry gradient, 0.9% fall on the never-solved flawed tasks and 19.5% on the sometimes-solved flawed tasks.">
+  <style>
+    text { font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; fill: #3c3f47; }
+    .title { font-size: 15px; font-weight: 650; fill: #25262a; }
+    .sub { font-size: 13px; fill: #74767e; }
+    .lab { font-size: 14px; }
+    .val { font-size: 14px; font-weight: 650; fill: #25262a; }
+    .big { font-size: 17px; font-weight: 650; fill: #25262a; }
+    .tick { font-size: 12.5px; fill: #74767e; }
+    .in { font-size: 13px; font-weight: 650; fill: #ffffff; }
+    .ind { font-size: 13px; font-weight: 650; fill: #25262a; }
+    .grid { stroke: #e6e6e9; stroke-width: 1; }
+    .axis { stroke: #c8cad0; stroke-width: 1; }
+    .halo { paint-order: stroke; stroke: #fcfcfc; stroke-width: 5px; stroke-linejoin: round; }
+  </style>
+  <rect x="0" y="4" width="12" height="12" rx="3" fill="#8b8e97" />
+  <text class="lab" x="20.0" y="15.0">mislabelled and never solved: a pass-rate filter removes these</text>
+  <rect x="0" y="28" width="12" height="12" rx="3" fill="#d03b3b" />
+  <text class="lab" x="20.0" y="39.0">mislabelled and sometimes solved: the filter keeps these</text>
+  <rect x="0" y="52" width="12" height="12" rx="3" fill="#e3e4e8" />
+  <text class="lab" x="20.0" y="63.0">other tasks</text>
+  <text class="title" x="0.0" y="109.0">Share of the 512 tasks</text>
+  <rect x="0.0" y="121" width="69.2" height="24" rx="3" fill="#8b8e97" />
+  <text class="in" x="8.0" y="137.5">11.1%</text>
+  <rect x="71.2" y="121" width="104.2" height="24" rx="3" fill="#d03b3b" />
+  <text class="in" x="79.2" y="137.5">16.6%</text>
+  <rect x="177.5" y="121" width="462.5" height="24" rx="3" fill="#e3e4e8" />
+  <text class="ind" x="185.5" y="137.5">72.3%</text>
+  <text class="title" x="0.0" y="189.0">Share of the 2,365 groups that carry gradient</text>
+  <rect x="0.0" y="201" width="3.7" height="24" rx="3" fill="#8b8e97" />
+  <line class="axis" x1="1.8" y1="227.0" x2="1.8" y2="234.0" />
+  <text class="val" x="0.0" y="248.0">0.9%</text>
+  <rect x="5.7" y="201" width="122.8" height="24" rx="3" fill="#d03b3b" />
+  <text class="in" x="13.7" y="217.5">19.5%</text>
+  <rect x="130.4" y="201" width="509.6" height="24" rx="3" fill="#e3e4e8" />
+  <text class="ind" x="138.4" y="217.5">79.6%</text>
+</svg>

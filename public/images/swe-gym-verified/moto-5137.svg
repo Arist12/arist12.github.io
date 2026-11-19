@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 256" role="img" aria-label="The 40 training attempts on getmoto/moto-5137 in five groups of eight. 30 attempts do what the issue asks and fail only the test of a second API that the issue never mentions, 9 fail other tests as well, and 1 is rewarded. Four groups have eight zero rewards and carry no gradient.">
+  <style>
+    text { font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; fill: #3c3f47; }
+    .title { font-size: 15px; font-weight: 650; fill: #25262a; }
+    .sub { font-size: 13px; fill: #74767e; }
+    .lab { font-size: 14px; }
+    .val { font-size: 14px; font-weight: 650; fill: #25262a; }
+    .big { font-size: 17px; font-weight: 650; fill: #25262a; }
+    .tick { font-size: 12.5px; fill: #74767e; }
+    .in { font-size: 13px; font-weight: 650; fill: #ffffff; }
+    .ind { font-size: 13px; font-weight: 650; fill: #25262a; }
+    .grid { stroke: #e6e6e9; stroke-width: 1; }
+    .axis { stroke: #c8cad0; stroke-width: 1; }
+    .halo { paint-order: stroke; stroke: #fcfcfc; stroke-width: 5px; stroke-linejoin: round; }
+  </style>
+  <text class="lab" x="0.0" y="24.0">run 1, step 10</text>
+  <rect x="150" y="8" width="22" height="22" rx="4" fill="#d03b3b" />
+  <rect x="178" y="8" width="22" height="22" rx="4" fill="#d03b3b" />
+  <rect x="206" y="8" width="22" height="22" rx="4" fill="#d03b3b" />
+  <rect x="234" y="8" width="22" height="22" rx="4" fill="#d03b3b" />
+  <rect x="262" y="8" width="22" height="22" rx="4" fill="#d03b3b" />
+  <rect x="290" y="8" width="22" height="22" rx="4" fill="#d03b3b" />
+  <rect x="318" y="8" width="22" height="22" rx="4" fill="#d03b3b" />
+  <rect x="346" y="8" width="22" height="22" rx="4" fill="#b6b8c0" />
+  <text class="sub" x="384.0" y="24.0">eight zeros: no gradient</text>
+  <text class="lab" x="0.0" y="58.0">run 1, step 34</text>
+  <rect x="150" y="42" width="22" height="22" rx="4" fill="#d03b3b" />
+  <rect x="178" y="42" width="22" height="22" rx="4" fill="#d03b3b" />
+  <rect x="206" y="42" width="22" height="22" rx="4" fill="#d03b3b" />
+  <rect x="234" y="42" width="22" height="22" rx="4" fill="#d03b3b" />
+  <rect x="262" y="42" width="22" height="22" rx="4" fill="#d03b3b" />
+  <rect x="290" y="42" width="22" height="22" rx="4" fill="#d03b3b" />
+  <rect x="318" y="42" width="22" height="22" rx="4" fill="#d03b3b" />
+  <rect x="346" y="42" width="22" height="22" rx="4" fill="#b6b8c0" />
+  <text class="sub" x="384.0" y="58.0">eight zeros: no gradient</text>
+  <text class="lab" x="0.0" y="92.0">run 2, step 18</text>
+  <rect x="150" y="76" width="22" height="22" rx="4" fill="#d03b3b" />
+  <rect x="178" y="76" width="22" height="22" rx="4" fill="#d03b3b" />
+  <rect x="206" y="76" width="22" height="22" rx="4" fill="#d03b3b" />
+  <rect x="234" y="76" width="22" height="22" rx="4" fill="#d03b3b" />
+  <rect x="262" y="76" width="22" height="22" rx="4" fill="#d03b3b" />
+  <rect x="290" y="76" width="22" height="22" rx="4" fill="#d03b3b" />
+  <rect x="318" y="76" width="22" height="22" rx="4" fill="#d03b3b" />
+  <rect x="346" y="76" width="22" height="22" rx="4" fill="#0ca30c" />
+  <path d="M352.0,87.5 l3.6,3.8 l6.4,-7.6" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+  <text class="val" x="384.0" y="92.0">one reward: the only gradient</text>
+  <text class="lab" x="0.0" y="126.0">run 2, step 60</text>
+  <rect x="150" y="110" width="22" height="22" rx="4" fill="#d03b3b" />
+  <rect x="178" y="110" width="22" height="22" rx="4" fill="#d03b3b" />
+  <rect x="206" y="110" width="22" height="22" rx="4" fill="#d03b3b" />
+  <rect x="234" y="110" width="22" height="22" rx="4" fill="#d03b3b" />
+  <rect x="262" y="110" width="22" height="22" rx="4" fill="#d03b3b" />
+  <rect x="290" y="110" width="22" height="22" rx="4" fill="#b6b8c0" />
+  <rect x="318" y="110" width="22" height="22" rx="4" fill="#b6b8c0" />
+  <rect x="346" y="110" width="22" height="22" rx="4" fill="#b6b8c0" />
+  <text class="sub" x="384.0" y="126.0">eight zeros: no gradient</text>
+  <text class="lab" x="0.0" y="160.0">run 2, step 67</text>
+  <rect x="150" y="144" width="22" height="22" rx="4" fill="#d03b3b" />
+  <rect x="178" y="144" width="22" height="22" rx="4" fill="#d03b3b" />
+  <rect x="206" y="144" width="22" height="22" rx="4" fill="#d03b3b" />
+  <rect x="234" y="144" width="22" height="22" rx="4" fill="#d03b3b" />
+  <rect x="262" y="144" width="22" height="22" rx="4" fill="#b6b8c0" />
+  <rect x="290" y="144" width="22" height="22" rx="4" fill="#b6b8c0" />
+  <rect x="318" y="144" width="22" height="22" rx="4" fill="#b6b8c0" />
+  <rect x="346" y="144" width="22" height="22" rx="4" fill="#b6b8c0" />
+  <text class="sub" x="384.0" y="160.0">eight zeros: no gradient</text>
+  <rect x="0" y="187" width="12" height="12" rx="3" fill="#d03b3b" />
+  <text class="lab" x="20.0" y="198.0">30 attempts do what the issue asks and fail only the test of the second API</text>
+  <rect x="0" y="211" width="12" height="12" rx="3" fill="#b6b8c0" />
+  <text class="lab" x="20.0" y="222.0">9 attempts fail other tests as well</text>
+  <rect x="0" y="235" width="12" height="12" rx="3" fill="#0ca30c" />
+  <text class="lab" x="20.0" y="246.0">1 attempt is rewarded: the only patch that touches the second API</text>
+</svg>

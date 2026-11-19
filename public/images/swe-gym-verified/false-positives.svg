@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 194" role="img" aria-label="Share of distinct passing patches that are wrong, by how many of eight attempts pass on the task: 27%, 27%, 36%, 36%, 28%, 21%, 29% and 19% for one to eight passes; 26% over all 1,854 patches.">
+  <style>
+    text { font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; fill: #3c3f47; }
+    .title { font-size: 15px; font-weight: 650; fill: #25262a; }
+    .sub { font-size: 13px; fill: #74767e; }
+    .lab { font-size: 14px; }
+    .val { font-size: 14px; font-weight: 650; fill: #25262a; }
+    .big { font-size: 17px; font-weight: 650; fill: #25262a; }
+    .tick { font-size: 12.5px; fill: #74767e; }
+    .in { font-size: 13px; font-weight: 650; fill: #ffffff; }
+    .ind { font-size: 13px; font-weight: 650; fill: #25262a; }
+    .grid { stroke: #e6e6e9; stroke-width: 1; }
+    .axis { stroke: #c8cad0; stroke-width: 1; }
+    .halo { paint-order: stroke; stroke: #fcfcfc; stroke-width: 5px; stroke-linejoin: round; }
+  </style>
+  <line class="axis" x1="44.0" y1="144.0" x2="636.0" y2="144.0" />
+  <text class="tick" x="38.0" y="148.0" text-anchor="end">0%</text>
+  <line class="grid" x1="44.0" y1="79.0" x2="636.0" y2="79.0" />
+  <text class="tick" x="38.0" y="83.0" text-anchor="end">25%</text>
+  <line class="grid" x1="44.0" y1="14.0" x2="636.0" y2="14.0" />
+  <text class="tick" x="38.0" y="18.0" text-anchor="end">50%</text>
+  <text class="tick" x="81.0" y="162.0" text-anchor="middle">1</text>
+  <path fill="#d03b3b" d="M69.0,144.0 V77.6 Q69.0,73.6 73.0,73.6 H89.0 Q93.0,73.6 93.0,77.6 V144.0 Z" />
+  <line class="grid" x1="81.0" y1="41.1" x2="81.0" y2="106.1" style="stroke:#25262a;stroke-width:1.5;stroke-opacity:0.55" />
+  <text class="tick" x="155.0" y="162.0" text-anchor="middle">2</text>
+  <path fill="#d03b3b" d="M143.0,144.0 V76.8 Q143.0,72.8 147.0,72.8 H163.0 Q167.0,72.8 167.0,76.8 V144.0 Z" />
+  <line class="grid" x1="155.0" y1="42.1" x2="155.0" y2="101.8" style="stroke:#25262a;stroke-width:1.5;stroke-opacity:0.55" />
+  <text class="tick" x="229.0" y="162.0" text-anchor="middle">3</text>
+  <path fill="#d03b3b" d="M217.0,144.0 V54.8 Q217.0,50.8 221.0,50.8 H237.0 Q241.0,50.8 241.0,54.8 V144.0 Z" />
+  <line class="grid" x1="229.0" y1="21.2" x2="229.0" y2="80.2" style="stroke:#25262a;stroke-width:1.5;stroke-opacity:0.55" />
+  <text class="tick" x="303.0" y="162.0" text-anchor="middle">4</text>
+  <path fill="#d03b3b" d="M291.0,144.0 V54.2 Q291.0,50.2 295.0,50.2 H311.0 Q315.0,50.2 315.0,54.2 V144.0 Z" />
+  <line class="grid" x1="303.0" y1="25.3" x2="303.0" y2="74.7" style="stroke:#25262a;stroke-width:1.5;stroke-opacity:0.55" />
+  <text class="tick" x="377.0" y="162.0" text-anchor="middle">5</text>
+  <path fill="#d03b3b" d="M365.0,144.0 V75.9 Q365.0,71.9 369.0,71.9 H385.0 Q389.0,71.9 389.0,75.9 V144.0 Z" />
+  <line class="grid" x1="377.0" y1="51.2" x2="377.0" y2="90.6" style="stroke:#25262a;stroke-width:1.5;stroke-opacity:0.55" />
+  <text class="tick" x="451.0" y="162.0" text-anchor="middle">6</text>
+  <path fill="#d03b3b" d="M439.0,144.0 V94.2 Q439.0,90.2 443.0,90.2 H459.0 Q463.0,90.2 463.0,94.2 V144.0 Z" />
+  <line class="grid" x1="451.0" y1="70.6" x2="451.0" y2="107.5" style="stroke:#25262a;stroke-width:1.5;stroke-opacity:0.55" />
+  <text class="tick" x="525.0" y="162.0" text-anchor="middle">7</text>
+  <path fill="#d03b3b" d="M513.0,144.0 V72.9 Q513.0,68.9 517.0,68.9 H533.0 Q537.0,68.9 537.0,72.9 V144.0 Z" />
+  <line class="grid" x1="525.0" y1="47.9" x2="525.0" y2="89.1" style="stroke:#25262a;stroke-width:1.5;stroke-opacity:0.55" />
+  <text class="tick" x="599.0" y="162.0" text-anchor="middle">8</text>
+  <path fill="#d03b3b" d="M587.0,144.0 V98.8 Q587.0,94.8 591.0,94.8 H607.0 Q611.0,94.8 611.0,98.8 V144.0 Z" />
+  <line class="grid" x1="599.0" y1="77.5" x2="599.0" y2="110.5" style="stroke:#25262a;stroke-width:1.5;stroke-opacity:0.55" />
+  <line class="axis" x1="44.0" y1="76.1" x2="636.0" y2="76.1" style="stroke:#3c3f47;stroke-width:1.2" />
+  <text class="val halo" x="636.0" y="28.0" text-anchor="end">26% of all 1,854 passing patches</text>
+  <text class="sub" x="340.0" y="184.0" text-anchor="middle">attempts that pass on the task, out of eight</text>
+</svg>

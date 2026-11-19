@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 216" role="img" aria-label="Of the 2,263 tasks whose audit finished, 1,176 are removed, 903 are released unchanged and 184 are released with a repaired issue. The 1,087 released tasks form SWE-Gym-Verified.">
+  <style>
+    text { font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; fill: #3c3f47; }
+    .title { font-size: 15px; font-weight: 650; fill: #25262a; }
+    .sub { font-size: 13px; fill: #74767e; }
+    .lab { font-size: 14px; }
+    .val { font-size: 14px; font-weight: 650; fill: #25262a; }
+    .big { font-size: 17px; font-weight: 650; fill: #25262a; }
+    .tick { font-size: 12.5px; fill: #74767e; }
+    .in { font-size: 13px; font-weight: 650; fill: #ffffff; }
+    .ind { font-size: 13px; font-weight: 650; fill: #25262a; }
+    .grid { stroke: #e6e6e9; stroke-width: 1; }
+    .axis { stroke: #c8cad0; stroke-width: 1; }
+    .halo { paint-order: stroke; stroke: #fcfcfc; stroke-width: 5px; stroke-linejoin: round; }
+  </style>
+  <rect x="0.0" y="34" width="195.5" height="28" rx="4" fill="#b6b8c0" />
+  <text class="ind" x="9.0" y="52.5">1,176 removed</text>
+  <rect x="197.5" y="34" width="149.6" height="28" rx="4" fill="#2a78d6" />
+  <text class="in" x="206.5" y="52.5">903</text>
+  <rect x="349.1" y="34" width="30.9" height="28" rx="4" fill="#86b6ef" />
+  <path d="M197.5,28 V22 H380.0 V28" fill="none" stroke="#8b8e97" stroke-width="1.2" />
+  <text class="val" x="380.0" y="15.0" text-anchor="end">SWE-Gym-Verified: 1,087 tasks</text>
+  <rect x="0" y="75" width="12" height="12" rx="3" fill="#b6b8c0" />
+  <text class="lab" x="20.0" y="86.0">removed: broken environment, unclear issue, or</text>
+  <text class="lab" x="20.0" y="104.0">a test that rejects correct fixes and cannot</text>
+  <text class="lab" x="20.0" y="122.0">be repaired</text>
+  <rect x="0" y="135" width="12" height="12" rx="3" fill="#2a78d6" />
+  <text class="lab" x="20.0" y="146.0">released unchanged: no test rejects a correct</text>
+  <text class="lab" x="20.0" y="164.0">fix</text>
+  <rect x="0" y="177" width="12" height="12" rx="3" fill="#86b6ef" />
+  <text class="lab" x="20.0" y="188.0">released with a repaired issue (184): the</text>
+  <text class="lab" x="20.0" y="206.0">missing requirement is added</text>
+</svg>

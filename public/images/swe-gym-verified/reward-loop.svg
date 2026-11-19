@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 150" role="img" aria-label="How a task rewards a patch. The agent reads a GitHub issue and writes a patch. Hidden tests, taken from the pull request that originally fixed the issue, run on the patch. If all pass the reward is 1, otherwise 0.">
+  <style>
+    text { font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; fill: #3c3f47; }
+    .title { font-size: 15px; font-weight: 650; fill: #25262a; }
+    .sub { font-size: 13px; fill: #74767e; }
+    .lab { font-size: 14px; }
+    .val { font-size: 14px; font-weight: 650; fill: #25262a; }
+    .big { font-size: 17px; font-weight: 650; fill: #25262a; }
+    .tick { font-size: 12.5px; fill: #74767e; }
+    .in { font-size: 13px; font-weight: 650; fill: #ffffff; }
+    .ind { font-size: 13px; font-weight: 650; fill: #25262a; }
+    .grid { stroke: #e6e6e9; stroke-width: 1; }
+    .axis { stroke: #c8cad0; stroke-width: 1; }
+    .halo { paint-order: stroke; stroke: #fcfcfc; stroke-width: 5px; stroke-linejoin: round; }
+  </style>
+  <rect x="0" y="10" width="150" height="74" rx="8" fill="none" stroke="#c8cad0" stroke-width="1.2" />
+  <text class="val" x="16.0" y="35.0">GitHub issue</text>
+  <text class="sub" x="16.0" y="54.0">the agent</text>
+  <text class="sub" x="16.0" y="71.0">reads it</text>
+  <line class="axis" x1="158.0" y1="47.0" x2="188.0" y2="47.0" style="stroke:#8b8e97;stroke-width:1.4" /><path d="M182,43.0 L188,47.0 L182,51.0" fill="none" stroke="#8b8e97" stroke-width="1.4" />
+  <rect x="196" y="10" width="150" height="74" rx="8" fill="none" stroke="#c8cad0" stroke-width="1.2" />
+  <text class="val" x="212.0" y="35.0">Patch</text>
+  <text class="sub" x="212.0" y="54.0">the agent</text>
+  <text class="sub" x="212.0" y="71.0">writes it</text>
+  <line class="axis" x1="354.0" y1="47.0" x2="384.0" y2="47.0" style="stroke:#8b8e97;stroke-width:1.4" /><path d="M378,43.0 L384,47.0 L378,51.0" fill="none" stroke="#8b8e97" stroke-width="1.4" />
+  <rect x="392" y="10" width="248" height="74" rx="8" fill="#f6f6f8" stroke="#c8cad0" stroke-width="1.2" />
+  <text class="val" x="408.0" y="35.0">Hidden tests</text>
+  <text class="sub" x="408.0" y="54.0">from the original pull request;</text>
+  <text class="sub" x="408.0" y="71.0">the agent never sees them</text>
+  <line class="axis" x1="450.0" y1="88.0" x2="450.0" y2="110.0" style="stroke:#8b8e97;stroke-width:1.4" /><path d="M446,104 L450,110 L454,104" fill="none" stroke="#8b8e97" stroke-width="1.4" />
+  <line class="axis" x1="582.0" y1="88.0" x2="582.0" y2="110.0" style="stroke:#8b8e97;stroke-width:1.4" /><path d="M578,104 L582,110 L586,104" fill="none" stroke="#8b8e97" stroke-width="1.4" />
+  <rect x="392" y="116" width="116" height="26" rx="13" fill="#0ca30c" /><text class="in" x="450.0" y="133.5" text-anchor="middle">pass: reward 1</text>
+  <rect x="524" y="116" width="116" height="26" rx="13" fill="#e3e4e8" /><text class="ind" x="582.0" y="133.5" text-anchor="middle">fail: reward 0</text>
+</svg>

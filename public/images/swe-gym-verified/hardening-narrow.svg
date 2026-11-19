@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 334" role="img" aria-label="Training reward on the 143 hardened tasks in four 20-step bins. Clean, graded by its original tests, rises from 72% to 79%. Clean+FP, trained with the new tests, rises from 58% to 66%. Clean's own patches re-graded with the new tests run from 59% to 62%, close to Clean+FP.">
+  <style>
+    text { font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; fill: #3c3f47; }
+    .title { font-size: 15px; font-weight: 650; fill: #25262a; }
+    .sub { font-size: 13px; fill: #74767e; }
+    .lab { font-size: 14px; }
+    .val { font-size: 14px; font-weight: 650; fill: #25262a; }
+    .big { font-size: 17px; font-weight: 650; fill: #25262a; }
+    .tick { font-size: 12.5px; fill: #74767e; }
+    .in { font-size: 13px; font-weight: 650; fill: #ffffff; }
+    .ind { font-size: 13px; font-weight: 650; fill: #25262a; }
+    .grid { stroke: #e6e6e9; stroke-width: 1; }
+    .axis { stroke: #c8cad0; stroke-width: 1; }
+    .halo { paint-order: stroke; stroke: #fcfcfc; stroke-width: 5px; stroke-linejoin: round; }
+  </style>
+  <line class="grid" x1="0.0" y1="11.0" x2="22.0" y2="11.0" style="stroke:#2a78d6;stroke-width:2.5;stroke-linecap:round;" />
+  <text class="lab" x="30.0" y="16.0">Clean, graded by its original tests</text>
+  <line class="grid" x1="0.0" y1="33.0" x2="22.0" y2="33.0" style="stroke:#eda100;stroke-width:2.5;stroke-linecap:round;" />
+  <text class="lab" x="30.0" y="38.0">Clean+FP, trained with the new tests</text>
+  <line class="grid" x1="0.0" y1="55.0" x2="22.0" y2="55.0" style="stroke:#2a78d6;stroke-width:2.5;stroke-linecap:round;stroke-dasharray:2 6" />
+  <text class="lab" x="30.0" y="60.0">Clean's patches, re-graded with the new tests</text>
+  <line class="grid" x1="40.0" y1="284.0" x2="372.0" y2="284.0" />
+  <text class="tick" x="34.0" y="288.0" text-anchor="end">50%</text>
+  <line class="grid" x1="40.0" y1="255.4" x2="372.0" y2="255.4" />
+  <line class="grid" x1="40.0" y1="226.9" x2="372.0" y2="226.9" />
+  <text class="tick" x="34.0" y="230.9" text-anchor="end">60%</text>
+  <line class="grid" x1="40.0" y1="198.3" x2="372.0" y2="198.3" />
+  <line class="grid" x1="40.0" y1="169.7" x2="372.0" y2="169.7" />
+  <text class="tick" x="34.0" y="173.7" text-anchor="end">70%</text>
+  <line class="grid" x1="40.0" y1="141.1" x2="372.0" y2="141.1" />
+  <line class="grid" x1="40.0" y1="112.6" x2="372.0" y2="112.6" />
+  <text class="tick" x="34.0" y="116.6" text-anchor="end">80%</text>
+  <line class="grid" x1="40.0" y1="84.0" x2="372.0" y2="84.0" />
+  <text class="tick" x="76.0" y="302.0" text-anchor="middle">1–20</text>
+  <text class="tick" x="162.7" y="302.0" text-anchor="middle">21–40</text>
+  <text class="tick" x="249.3" y="302.0" text-anchor="middle">41–60</text>
+  <text class="tick" x="336.0" y="302.0" text-anchor="middle">61–80</text>
+  <text class="sub" x="206.0" y="324.0" text-anchor="middle">training steps</text>
+  <polyline points="76.0,160.6 162.7,153.0 249.3,117.0 336.0,120.0" fill="none" stroke="#2a78d6" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" style="" />
+  <circle cx="336.0" cy="120.0" r="4.5" fill="#2a78d6" stroke="#fcfcfc" stroke-width="2" />
+  <polyline points="76.0,238.1 162.7,217.5 249.3,198.5 336.0,191.6" fill="none" stroke="#eda100" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" style="" />
+  <circle cx="336.0" cy="191.6" r="4.5" fill="#eda100" stroke="#fcfcfc" stroke-width="2" />
+  <polyline points="76.0,233.1 162.7,223.1 249.3,188.9 336.0,216.6" fill="none" stroke="#2a78d6" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" style="stroke-dasharray:2 6" />
+  <circle cx="336.0" cy="216.6" r="4.5" fill="#2a78d6" stroke="#fcfcfc" stroke-width="2" />
+  <line class="axis" x1="96.0" y1="169.6" x2="96.0" y2="226.1" style="stroke:#3c3f47;stroke-width:1.2" />
+  <path d="M92.0,174.57142857142853 L96.0,169.57142857142853 L100.0,174.57142857142853" fill="none" stroke="#3c3f47" stroke-width="1.2" />
+  <path d="M92.0,221.0952380952381 L96.0,226.0952380952381 L100.0,221.0952380952381" fill="none" stroke="#3c3f47" stroke-width="1.2" />
+  <text class="val halo" x="106.0" y="202.8">≈ 13 points</text>
+</svg>

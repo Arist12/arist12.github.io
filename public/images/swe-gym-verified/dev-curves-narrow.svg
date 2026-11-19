@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 334" role="img" aria-label="Pass@1 on the 100-task development split at training steps 10 to 80, mean of three seeds. The three sets stay close through step 40. At step 80 Clean is at 53.0%, Orig+Filter at 49.3% and Orig at 48.0%; the base model is at 46.8%.">
+  <style>
+    text { font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; fill: #3c3f47; }
+    .title { font-size: 15px; font-weight: 650; fill: #25262a; }
+    .sub { font-size: 13px; fill: #74767e; }
+    .lab { font-size: 14px; }
+    .val { font-size: 14px; font-weight: 650; fill: #25262a; }
+    .big { font-size: 17px; font-weight: 650; fill: #25262a; }
+    .tick { font-size: 12.5px; fill: #74767e; }
+    .in { font-size: 13px; font-weight: 650; fill: #ffffff; }
+    .ind { font-size: 13px; font-weight: 650; fill: #25262a; }
+    .grid { stroke: #e6e6e9; stroke-width: 1; }
+    .axis { stroke: #c8cad0; stroke-width: 1; }
+    .halo { paint-order: stroke; stroke: #fcfcfc; stroke-width: 5px; stroke-linejoin: round; }
+  </style>
+  <line class="grid" x1="0.0" y1="11.0" x2="22.0" y2="11.0" style="stroke:#2a78d6;stroke-width:2.5;stroke-linecap:round" />
+  <text class="lab" x="30.0" y="16.0">Clean: 53.0% at step 80</text>
+  <line class="grid" x1="0.0" y1="33.0" x2="22.0" y2="33.0" style="stroke:#1baf7a;stroke-width:2.5;stroke-linecap:round" />
+  <text class="lab" x="30.0" y="38.0">Orig+Filter: 49.3% at step 80</text>
+  <line class="grid" x1="0.0" y1="55.0" x2="22.0" y2="55.0" style="stroke:#eb6834;stroke-width:2.5;stroke-linecap:round" />
+  <text class="lab" x="30.0" y="60.0">Orig: 48.0% at step 80</text>
+  <rect x="229.7" y="84" width="142.3" height="200" fill="#f1f2f5" />
+  <line class="grid" x1="40.0" y1="284.0" x2="372.0" y2="284.0" />
+  <text class="tick" x="34.0" y="288.0" text-anchor="end">44%</text>
+  <line class="grid" x1="40.0" y1="250.7" x2="372.0" y2="250.7" />
+  <text class="tick" x="34.0" y="254.7" text-anchor="end">46%</text>
+  <line class="grid" x1="40.0" y1="217.3" x2="372.0" y2="217.3" />
+  <text class="tick" x="34.0" y="221.3" text-anchor="end">48%</text>
+  <line class="grid" x1="40.0" y1="184.0" x2="372.0" y2="184.0" />
+  <text class="tick" x="34.0" y="188.0" text-anchor="end">50%</text>
+  <line class="grid" x1="40.0" y1="150.7" x2="372.0" y2="150.7" />
+  <text class="tick" x="34.0" y="154.7" text-anchor="end">52%</text>
+  <line class="grid" x1="40.0" y1="117.3" x2="372.0" y2="117.3" />
+  <text class="tick" x="34.0" y="121.3" text-anchor="end">54%</text>
+  <line class="grid" x1="40.0" y1="84.0" x2="372.0" y2="84.0" />
+  <text class="tick" x="34.0" y="88.0" text-anchor="end">56%</text>
+  <text class="sub" x="300.9" y="258.0" text-anchor="middle">Clean ahead of</text>
+  <text class="sub" x="300.9" y="275.0" text-anchor="middle">Orig by 3.9 points</text>
+  <line class="axis" x1="40.0" y1="238.2" x2="372.0" y2="238.2" style="stroke:#8b8e97;stroke-width:1.2" />
+  <text class="tick" x="40.0" y="302.0" text-anchor="middle">10</text>
+  <text class="tick" x="87.4" y="302.0" text-anchor="middle">20</text>
+  <text class="tick" x="134.9" y="302.0" text-anchor="middle">30</text>
+  <text class="tick" x="182.3" y="302.0" text-anchor="middle">40</text>
+  <text class="tick" x="229.7" y="302.0" text-anchor="middle">50</text>
+  <text class="tick" x="277.1" y="302.0" text-anchor="middle">60</text>
+  <text class="tick" x="324.6" y="302.0" text-anchor="middle">70</text>
+  <text class="tick" x="372.0" y="302.0" text-anchor="middle">80</text>
+  <text class="sub" x="206.0" y="324.0" text-anchor="middle">training step</text>
+  <polyline points="40.0,243.7 87.4,159.0 134.9,142.3 182.3,181.2 229.7,202.0 277.1,189.5 324.6,202.0 372.0,217.3" fill="none" stroke="#eb6834" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" />
+  <circle cx="372.0" cy="217.3" r="4.5" fill="#eb6834" stroke="#fcfcfc" stroke-width="2" />
+  <polyline points="40.0,236.8 87.4,188.2 134.9,152.0 182.3,156.2 229.7,161.8 277.1,143.7 324.6,182.7 372.0,195.2" fill="none" stroke="#1baf7a" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" />
+  <circle cx="372.0" cy="195.2" r="4.5" fill="#1baf7a" stroke="#fcfcfc" stroke-width="2" />
+  <polyline points="40.0,217.3 87.4,177.0 134.9,170.2 182.3,188.2 229.7,150.7 277.1,157.7 324.6,110.3 372.0,134.0" fill="none" stroke="#2a78d6" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" />
+  <circle cx="372.0" cy="134.0" r="4.5" fill="#2a78d6" stroke="#fcfcfc" stroke-width="2" />
+  <text class="sub halo" x="91.4" y="254.2">base model 46.8%</text>
+</svg>
