@@ -9,6 +9,12 @@ const posts = defineCollection({
     description: z.string(),
     date: z.coerce.date(),
     draft: z.boolean().default(false),
+    // Thumbnail in the Writing list.
+    cover: z.string().optional(),
+    // Figure shown under the article header, above the text. `narrow` is served to phones.
+    hero: z
+      .object({ src: z.string(), narrow: z.string().optional(), alt: z.string(), caption: z.string().optional() })
+      .optional(),
   }),
 });
 export const collections = { posts };

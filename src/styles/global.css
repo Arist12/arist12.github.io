@@ -342,9 +342,6 @@ p {
 .back-link:hover {
   color: var(--accent);
 }
-.writing-section {
-  margin-top: 43px;
-}
 .post-list {
   margin: 0;
   padding: 0;
@@ -353,25 +350,60 @@ p {
 .post-list li + li {
   border-top: 1px solid var(--line);
 }
-.post-list a {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 20px;
-  padding: 14px 0;
-  font-size: 0.9375rem;
-  line-height: 1.7;
+.post-card {
+  display: block;
+  padding: 28px 0;
 }
-.post-list li:first-child a {
+.post-card.has-cover {
+  display: grid;
+  grid-template-columns: 216px minmax(0, 1fr);
+  column-gap: 28px;
+  align-items: center;
+}
+.post-list li:first-child .post-card {
   padding-top: 0;
 }
-.post-list a:hover {
+.post-cover {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f5f6f8;
+  transition: border-color 0.16s;
+}
+.post-card:hover .post-cover {
+  border-color: #c9cbd2;
+}
+.post-title {
+  display: block;
+  font-size: 1.1875rem;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: -0.35px;
+  transition: color 0.16s;
+}
+.post-card:hover .post-title {
   color: var(--accent);
 }
-.post-list time {
-  font-size: 0.75rem;
+.post-summary {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.post-summary p {
   color: var(--muted);
-  white-space: nowrap;
+  font-size: 0.875rem;
+  line-height: 1.7;
+  margin-top: 8px;
+}
+.post-summary time {
+  display: block;
+  margin-top: 12px;
+  color: #8b8e97;
+  font-size: 0.75rem;
+  line-height: 1.7;
+  font-variant-numeric: tabular-nums;
 }
 .writing-page,
 .article-page {
@@ -446,23 +478,29 @@ p {
 .article-bottom {
   margin-top: 55px;
 }
-.post-list-archive a {
-  padding: 26px 0;
+/* A figure under the article header, a little wider than the text on large screens. */
+.article-hero {
+  margin: 36px 0 0;
 }
-.post-list-archive .post-title {
-  font-size: 1.125rem;
-  font-weight: 550;
-  letter-spacing: -0.3px;
+.article-hero img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
-.post-summary {
-  min-width: 0;
-  overflow-wrap: anywhere;
-}
-.post-summary p {
+.article-hero figcaption {
+  margin-top: 14px;
   color: var(--muted);
-  font-size: 0.875rem;
+  font-size: 0.8125rem;
   line-height: 1.7;
-  margin-top: 7px;
+  text-align: center;
+}
+@media (min-width: 1000px) {
+  .article-hero {
+    position: relative;
+    left: 50%;
+    width: min(100vw - 96px, 880px);
+    transform: translateX(-50%);
+  }
 }
 .prose {
   font-size: 1.0625rem;
@@ -593,20 +631,47 @@ p {
 .prose :is(h2, h3, h4) {
   scroll-margin-top: 32px;
 }
+/* Contents sit in a column to the left of the text and stay in view while reading.
+   Below 1200px there is no room for the column, and the list is left out. */
 .toc {
-  margin-top: 34px;
-  padding: 18px 22px;
-  border: 1px solid var(--line);
-  border-radius: 5px;
-  font-size: 0.9375rem;
+  display: none;
+}
+@media (min-width: 1200px) {
+  .article-body {
+    display: grid;
+    grid-template-columns: 208px minmax(0, 1fr);
+    column-gap: 48px;
+    margin-left: -256px;
+  }
+  .article-body > .prose {
+    grid-column: 2;
+  }
+  .article-body > .toc {
+    display: block;
+    grid-column: 1;
+    grid-row: 1;
+    position: sticky;
+    top: 36px;
+    align-self: start;
+    max-height: calc(100vh - 72px);
+    margin-top: 42px;
+    padding-left: 16px;
+    overflow-y: auto;
+    font-size: 0.8125rem;
+  }
+  /* A wide figure passes over the contents column instead of colliding with it. */
+  .prose .figure-wide {
+    z-index: 1;
+    background: #fcfcfc;
+  }
 }
 .toc-title {
-  margin: 0 0 10px;
-  color: var(--muted);
-  font-size: 0.75rem;
-  font-weight: 550;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
 }
 .toc ol {
   margin: 0;
@@ -614,21 +679,75 @@ p {
   list-style: none;
 }
 .toc li {
-  margin: 4px 0;
-  line-height: 1.6;
+  margin: 11px 0;
+  line-height: 1.45;
 }
-.toc-h3 {
-  padding-left: 18px;
-  font-size: 0.875rem;
+.toc li ol {
+  margin-top: 9px;
+}
+.toc li li {
+  margin: 7px 0;
+  padding-left: 13px;
+  font-size: 0.78125rem;
 }
 .toc a {
-  color: inherit;
+  position: relative;
+  display: inline-block;
+  color: #8b8e97;
   text-decoration: none;
+  transition: color 0.16s;
 }
 .toc a:hover {
-  color: var(--accent);
-  text-decoration: underline;
-  text-underline-offset: 3px;
+  color: #25262a;
+}
+/* The dot that marks the section being read. It stays hidden where the rules below are not supported. */
+.toc > ol > li > a::before {
+  content: "";
+  position: absolute;
+  top: 0.72em;
+  left: -14px;
+  width: 5px;
+  height: 5px;
+  margin-top: -2.5px;
+  border-radius: 50%;
+  background: #25262a;
+  opacity: 0;
+  transform: scale(0.3);
+}
+/* Scroll-driven, without a script: every section of the article is a view timeline (rehype-toc-sections.mjs),
+   watched through a thin band below the top of the window. While a section crosses the band, its entry
+   darkens and its dot fades in; the fade follows the scroll position. */
+@supports (animation-timeline: view()) and (timeline-scope: --toc) {
+  .toc-section {
+    view-timeline-axis: block;
+    view-timeline-inset: 18% 81%;
+  }
+  .toc a {
+    animation: toc-reading linear;
+    animation-timeline: var(--toc-timeline);
+  }
+  .toc > ol > li > a::before {
+    animation: toc-marker linear;
+    animation-timeline: var(--toc-timeline);
+  }
+}
+@keyframes toc-reading {
+  from,
+  to {
+    color: #25262a;
+  }
+}
+@keyframes toc-marker {
+  from,
+  to {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  4%,
+  96% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 .prose .callout-title {
   font-weight: 550;
@@ -659,18 +778,62 @@ p {
   overflow-x: auto;
   overflow-y: hidden;
 }
+/* Footnotes read as a reference list: small, quiet, numbered. */
 .prose .footnotes {
-  margin-top: 48px;
-  padding-top: 20px;
+  margin-top: 56px;
+  padding-top: 24px;
   border-top: 1px solid var(--line);
   color: var(--muted);
-  font-size: 0.9375rem;
+  font-size: 0.8125rem;
+  line-height: 1.7;
+}
+.prose .footnotes::before {
+  content: "References";
+  display: block;
+  margin-bottom: 12px;
+  color: #8b8e97;
+  font-size: 0.6875rem;
+  font-weight: 550;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.prose .footnotes ol {
+  margin: 0;
+  padding-left: 1.7em;
 }
 .prose .footnotes li {
+  margin: 0.6em 0;
+  padding-left: 0.35em;
   scroll-margin-top: 32px;
 }
+.prose .footnotes li::marker {
+  color: #9a9ca5;
+  font-variant-numeric: tabular-nums;
+}
 .prose .footnotes p {
-  margin: 0.5em 0;
+  margin: 0;
+}
+.prose .footnotes a {
+  color: #3c3f47;
+  text-decoration-color: #d3d4da;
+}
+.prose .footnotes a:hover {
+  color: var(--accent);
+  text-decoration-color: currentColor;
+}
+.prose .footnotes .data-footnote-backref {
+  margin-left: 4px;
+  color: #b0b3bb;
+  text-decoration: none;
+}
+.prose sup {
+  font-size: 0.7em;
+  line-height: 0;
+}
+.prose sup a[data-footnote-ref] {
+  padding: 0 1px;
+  font-weight: 550;
+  text-decoration: none;
 }
 .sr-only {
   position: absolute;
@@ -686,9 +849,9 @@ p {
   .writing-page > h1 {
     font-size: 2.75rem;
   }
-  .post-list a {
-    flex-direction: column;
-    gap: 3px;
+  .post-card.has-cover {
+    grid-template-columns: 1fr;
+    row-gap: 18px;
   }
   .prose pre {
     padding: 16px;
@@ -698,8 +861,5 @@ p {
   }
   .prose .callout {
     padding: 16px;
-  }
-  .writing-section {
-    margin-top: 35px;
   }
 }

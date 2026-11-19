@@ -5,12 +5,26 @@ interface Props { headings: MarkdownHeading[] }
 const items = Astro.props.headings.filter(
   heading => (heading.depth === 2 || heading.depth === 3) && heading.slug !== 'footnote-label',
 );
+// Each entry follows the view timeline of its section (see rehype-toc-sections.mjs), numbered in the same order.
+const groups: { item: MarkdownHeading; n: number; children: { item: MarkdownHeading; n: number }[] }[] = [];
+items.forEach((item, index) => {
+  const entry = { item, n: index + 1 };
+  if (item.depth === 2 || groups.length === 0) groups.push({ ...entry, children: [] });
+  else groups.at(-1)!.children.push(entry);
+});
 ---
 {items.length > 2 && (
   <nav class="toc" aria-labelledby="toc-title">
     <p id="toc-title" class="toc-title">Contents</p>
-    <ol>{items.map(item => (
-      <li class={`toc-h${item.depth}`}><a href={`#${item.slug}`}>{item.text}</a></li>
+    <ol>{groups.map(group => (
+      <li>
+        <a href={`#${group.item.slug}`} style={`--toc-timeline: --toc-${group.n}`}>{group.item.text}</a>
+        {group.children.length > 0 && (
+          <ol>{group.children.map(child => (
+            <li><a href={`#${child.item.slug}`} style={`--toc-timeline: --toc-${child.n}`}>{child.item.text}</a></li>
+          ))}</ol>
+        )}
+      </li>
     ))}</ol>
   </nav>
 )}

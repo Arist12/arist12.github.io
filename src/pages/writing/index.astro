@@ -9,6 +9,6 @@ const posts = await publishedPosts();
   <SiteHeader active="writing" />
   <main id="main" class="writing-page writing-index">
     <h1 class="visually-hidden">Writing</h1>
-    {posts.length > 0 ? <PostList posts={posts} variant="archive" /> : <p class="empty-state">Notes and essays, coming soon.</p>}
+    {posts.length > 0 ? <PostList posts={posts} /> : <p class="empty-state">Notes and essays, coming soon.</p>}
   </main>
 </Layout>

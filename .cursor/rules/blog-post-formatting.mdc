@@ -15,8 +15,16 @@ title: "The title"
 description: "One sentence, used for search results and the archive list."
 date: 2026-09-21
 draft: true   # flip to false to publish
+cover: /images/<slug>/cover.svg   # optional: 16:10 thumbnail in the Writing list
+hero:                             # optional: figure under the title, above the text
+  src: /images/<slug>/hero.svg
+  narrow: /images/<slug>/hero-narrow.svg   # optional: served below 520px
+  alt: "What the figure shows."
+  caption: "Optional."
 ---
 ```
+
+Open with the hero when the post has one strong picture: it shows before any text.
 
 Draft a new post with `draft: true` so the author can review it at
 `/writing/<slug>/` before it appears in any list, then flip the flag.
@@ -79,7 +87,22 @@ hand-author an SVG into `public/images/` and reference it with `:::figure{src=�
 Set a `viewBox`, no fixed `width`/`height`, `role="img"` and an `aria-label`; use
 `Inter, system-ui, sans-serif` and the greys above so it matches the page.
 
-A table of contents appears automatically at 3+ `##`/`###` headings — don't write one.
+A table of contents appears automatically at 3+ `##`/`###` headings, in a column beside the
+text on screens of 1200px and more — don't write one. It marks the section being read, so give
+the article a clear two-level outline: a few `##` parts that name what they cover, with `###`
+for the points inside a part. Keep headings short; they wrap at 208px.
+
+Text in an SVG shrinks with the image, so a figure drawn for the 672px column is hard to read
+on a phone. For a chart with labels, draw a second, narrow layout (viewBox about 380 wide) and
+let the browser choose; the `<div>` keeps Markdown from wrapping the picture in a paragraph:
+
+```markdown
+:::figure
+<div><picture><source media="(max-width: 520px)" srcset="/images/<slug>/chart-narrow.svg"><img src="/images/<slug>/chart.svg" alt="What the chart shows."></picture></div>
+
+The caption.
+:::
+```
 
 ## Verify
 

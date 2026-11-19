@@ -34,6 +34,12 @@ title: "My article title"
 description: "A short description for search results."
 date: 2026-09-14
 draft: false
+cover: /images/llm-agents/cover.svg        # optional: thumbnail in the Writing list
+hero:                                       # optional: figure under the title, above the text
+  src: /images/llm-agents/hero.svg
+  narrow: /images/llm-agents/hero-narrow.svg   # optional: served to phones
+  alt: "What the figure shows."
+  caption: "An optional caption."
 ---
 ```
 
@@ -43,11 +49,17 @@ Write the article below the metadata using Markdown. Its URL will be
 
 - `draft: true` excludes a post from **both** lists and generated article URLs.
 - The Writing navigation is always visible. Before the first post, its page shows
-  “Notes and essays, coming soon.” Publishing adds the latest posts to the homepage.
-- The homepage shows the latest three articles. `/writing/` lists all articles.
+  “Notes and essays, coming soon.”
+- `/writing/` lists all articles, each as a card with its `cover`. The About page
+  does not list them; Writing is reached from the navigation.
 - Articles share `src/layouts/ArticleLayout.astro`: title, description, author,
-  date, and a comfortable reading column. A table of contents appears
-  automatically once an article has three or more `##`/`###` headings.
+  date, the optional `hero` figure, and a comfortable reading column. Once an
+  article has three or more `##`/`###` headings, its contents appear in a column
+  beside the text and stay in view while reading, with a dot on the section being
+  read. The dot is driven by CSS scroll timelines, not by a script; browsers
+  without them show the list without the dot. The column needs a window at least
+  1200px wide; on smaller screens it is left out.
+- Footnotes are set as a small numbered list under the label "References".
 - The included template is a draft and is never published by default.
 
 ## Rich formatting
