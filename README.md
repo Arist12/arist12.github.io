@@ -54,9 +54,9 @@ Write the article below the metadata using Markdown. Its URL will be
   does not list them; Writing is reached from the navigation.
 - Articles share `src/layouts/ArticleLayout.astro`: title, description, author,
   date, the optional `hero` figure, and a comfortable reading column. Once an
-  article has three or more `##`/`###` headings, its contents appear in a column
-  beside the text and stay in view while reading, with a dot on the section being
-  read. The dot is driven by CSS scroll timelines, not by a script; browsers
+  article has three or more `##` headings, they are listed in a column beside the
+  text that stays in view while reading, with a dot on the part being read
+  (`###` headings structure the text but are not listed). The dot is driven by CSS scroll timelines, not by a script; browsers
   without them show the list without the dot. The column needs a window at least
   1200px wide; on smaller screens it is left out.
 - Footnotes are set as a small numbered list under the label "References".

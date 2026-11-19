@@ -87,10 +87,17 @@ hand-author an SVG into `public/images/` and reference it with `:::figure{src=�
 Set a `viewBox`, no fixed `width`/`height`, `role="img"` and an `aria-label`; use
 `Inter, system-ui, sans-serif` and the greys above so it matches the page.
 
-A table of contents appears automatically at 3+ `##`/`###` headings, in a column beside the
-text on screens of 1200px and more — don't write one. It marks the section being read, so give
-the article a clear two-level outline: a few `##` parts that name what they cover, with `###`
-for the points inside a part. Keep headings short; they wrap at 208px.
+A table of contents appears automatically at 3+ `##` headings, in a column beside the text on
+screens of 1200px and more — don't write one. It lists the `##` parts only and marks the one
+being read, so give the article a few `##` parts whose names say what they cover and read as a
+progression; use `###` for the points inside a part (they are not listed). Keep `##` headings
+short; they wrap at 208px.
+
+An SVG shown through `<img>` cannot use the page's web fonts: its text is set in whatever
+sans-serif the reader has, and a wider face pushes labels out of their boxes. For a figure with
+labels, embed the glyphs it needs from Inter as a `data:` `@font-face` inside the SVG's
+`<style>` (the figures under `public/images/swe-gym-verified/` do this) and still leave room in
+every box.
 
 Text in an SVG shrinks with the image, so a figure drawn for the 672px column is hard to read
 on a phone. For a chart with labels, draw a second, narrow layout (viewBox about 380 wide) and

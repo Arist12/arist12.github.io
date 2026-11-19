@@ -682,14 +682,6 @@ p {
   margin: 11px 0;
   line-height: 1.45;
 }
-.toc li ol {
-  margin-top: 9px;
-}
-.toc li li {
-  margin: 7px 0;
-  padding-left: 13px;
-  font-size: 0.78125rem;
-}
 .toc a {
   position: relative;
   display: inline-block;
@@ -701,7 +693,7 @@ p {
   color: #25262a;
 }
 /* The dot that marks the section being read. It stays hidden where the rules below are not supported. */
-.toc > ol > li > a::before {
+.toc a::before {
   content: "";
   position: absolute;
   top: 0.72em;
@@ -726,7 +718,7 @@ p {
     animation: toc-reading linear;
     animation-timeline: var(--toc-timeline);
   }
-  .toc > ol > li > a::before {
+  .toc a::before {
     animation: toc-marker linear;
     animation-timeline: var(--toc-timeline);
   }

@@ -2,29 +2,18 @@
 import type { MarkdownHeading } from 'astro';
 interface Props { headings: MarkdownHeading[] }
 // `footnote-label` is the visually hidden heading GitHub-flavoured footnotes emit.
-const items = Astro.props.headings.filter(
+const sections = Astro.props.headings.filter(
   heading => (heading.depth === 2 || heading.depth === 3) && heading.slug !== 'footnote-label',
 );
-// Each entry follows the view timeline of its section (see rehype-toc-sections.mjs), numbered in the same order.
-const groups: { item: MarkdownHeading; n: number; children: { item: MarkdownHeading; n: number }[] }[] = [];
-items.forEach((item, index) => {
-  const entry = { item, n: index + 1 };
-  if (item.depth === 2 || groups.length === 0) groups.push({ ...entry, children: [] });
-  else groups.at(-1)!.children.push(entry);
-});
+// Only the `##` parts are listed, so the column stays a short map of the article. Each entry follows the view
+// timeline of its section; rehype-toc-sections.mjs numbers `##` and `###` sections together, in document order.
+const parts = sections.map((item, index) => ({ item, n: index + 1 })).filter(({ item }) => item.depth === 2);
 ---
-{items.length > 2 && (
+{parts.length > 2 && (
   <nav class="toc" aria-labelledby="toc-title">
     <p id="toc-title" class="toc-title">Contents</p>
-    <ol>{groups.map(group => (
-      <li>
-        <a href={`#${group.item.slug}`} style={`--toc-timeline: --toc-${group.n}`}>{group.item.text}</a>
-        {group.children.length > 0 && (
-          <ol>{group.children.map(child => (
-            <li><a href={`#${child.item.slug}`} style={`--toc-timeline: --toc-${child.n}`}>{child.item.text}</a></li>
-          ))}</ol>
-        )}
-      </li>
+    <ol>{parts.map(({ item, n }) => (
+      <li><a href={`#${item.slug}`} style={`--toc-timeline: --toc-${n}`}>{item.text}</a></li>
     ))}</ol>
   </nav>
 )}
