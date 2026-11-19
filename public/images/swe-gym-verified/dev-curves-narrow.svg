@@ -1,6 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 334" role="img" aria-label="Pass@1 on the 100-task development split at training steps 10 to 80, mean of three seeds. The three sets stay close through step 40. At step 80 Clean is at 53.0%, Orig+Filter at 49.3% and Orig at 48.0%; the base model is at 46.8%.">
   <style>
-    text { font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; fill: #3c3f47; }
+    @font-face { font-family: "Fig Inter"; font-weight: 400; src: url(data:font/woff2;base64,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) format("woff2"); }
+    text { font-family: "Fig Inter", Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; fill: #3c3f47; }
     .title { font-size: 15px; font-weight: 650; fill: #25262a; }
     .sub { font-size: 13px; fill: #74767e; }
     .lab { font-size: 14px; }
@@ -19,38 +20,39 @@
   <text class="lab" x="30.0" y="38.0">Orig+Filter: 49.3% at step 80</text>
   <line class="grid" x1="0.0" y1="55.0" x2="22.0" y2="55.0" style="stroke:#eb6834;stroke-width:2.5;stroke-linecap:round" />
   <text class="lab" x="30.0" y="60.0">Orig: 48.0% at step 80</text>
-  <rect x="229.7" y="84" width="142.3" height="200" fill="#f1f2f5" />
-  <line class="grid" x1="40.0" y1="284.0" x2="372.0" y2="284.0" />
+  <rect x="226.3" y="84" width="139.7" height="200" fill="#f1f2f5" />
+  <line class="grid" x1="40.0" y1="284.0" x2="366.0" y2="284.0" />
   <text class="tick" x="34.0" y="288.0" text-anchor="end">44%</text>
-  <line class="grid" x1="40.0" y1="250.7" x2="372.0" y2="250.7" />
+  <line class="grid" x1="40.0" y1="250.7" x2="366.0" y2="250.7" />
   <text class="tick" x="34.0" y="254.7" text-anchor="end">46%</text>
-  <line class="grid" x1="40.0" y1="217.3" x2="372.0" y2="217.3" />
+  <line class="grid" x1="40.0" y1="217.3" x2="366.0" y2="217.3" />
   <text class="tick" x="34.0" y="221.3" text-anchor="end">48%</text>
-  <line class="grid" x1="40.0" y1="184.0" x2="372.0" y2="184.0" />
+  <line class="grid" x1="40.0" y1="184.0" x2="366.0" y2="184.0" />
   <text class="tick" x="34.0" y="188.0" text-anchor="end">50%</text>
-  <line class="grid" x1="40.0" y1="150.7" x2="372.0" y2="150.7" />
+  <line class="grid" x1="40.0" y1="150.7" x2="366.0" y2="150.7" />
   <text class="tick" x="34.0" y="154.7" text-anchor="end">52%</text>
-  <line class="grid" x1="40.0" y1="117.3" x2="372.0" y2="117.3" />
+  <line class="grid" x1="40.0" y1="117.3" x2="366.0" y2="117.3" />
   <text class="tick" x="34.0" y="121.3" text-anchor="end">54%</text>
-  <line class="grid" x1="40.0" y1="84.0" x2="372.0" y2="84.0" />
+  <line class="grid" x1="40.0" y1="84.0" x2="366.0" y2="84.0" />
   <text class="tick" x="34.0" y="88.0" text-anchor="end">56%</text>
-  <text class="sub" x="300.9" y="258.0" text-anchor="middle">Clean ahead of</text>
-  <text class="sub" x="300.9" y="275.0" text-anchor="middle">Orig by 3.9 points</text>
-  <line class="axis" x1="40.0" y1="238.2" x2="372.0" y2="238.2" style="stroke:#8b8e97;stroke-width:1.2" />
+  <text class="sub" x="296.1" y="238.0" text-anchor="middle">Clean ahead</text>
+  <text class="sub" x="296.1" y="255.0" text-anchor="middle">of Orig by 3.9</text>
+  <text class="sub" x="296.1" y="272.0" text-anchor="middle">on average</text>
+  <line class="axis" x1="40.0" y1="238.2" x2="366.0" y2="238.2" style="stroke:#8b8e97;stroke-width:1.2" />
   <text class="tick" x="40.0" y="302.0" text-anchor="middle">10</text>
-  <text class="tick" x="87.4" y="302.0" text-anchor="middle">20</text>
-  <text class="tick" x="134.9" y="302.0" text-anchor="middle">30</text>
-  <text class="tick" x="182.3" y="302.0" text-anchor="middle">40</text>
-  <text class="tick" x="229.7" y="302.0" text-anchor="middle">50</text>
-  <text class="tick" x="277.1" y="302.0" text-anchor="middle">60</text>
-  <text class="tick" x="324.6" y="302.0" text-anchor="middle">70</text>
-  <text class="tick" x="372.0" y="302.0" text-anchor="middle">80</text>
-  <text class="sub" x="206.0" y="324.0" text-anchor="middle">training step</text>
-  <polyline points="40.0,243.7 87.4,159.0 134.9,142.3 182.3,181.2 229.7,202.0 277.1,189.5 324.6,202.0 372.0,217.3" fill="none" stroke="#eb6834" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" />
-  <circle cx="372.0" cy="217.3" r="4.5" fill="#eb6834" stroke="#fcfcfc" stroke-width="2" />
-  <polyline points="40.0,236.8 87.4,188.2 134.9,152.0 182.3,156.2 229.7,161.8 277.1,143.7 324.6,182.7 372.0,195.2" fill="none" stroke="#1baf7a" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" />
-  <circle cx="372.0" cy="195.2" r="4.5" fill="#1baf7a" stroke="#fcfcfc" stroke-width="2" />
-  <polyline points="40.0,217.3 87.4,177.0 134.9,170.2 182.3,188.2 229.7,150.7 277.1,157.7 324.6,110.3 372.0,134.0" fill="none" stroke="#2a78d6" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" />
-  <circle cx="372.0" cy="134.0" r="4.5" fill="#2a78d6" stroke="#fcfcfc" stroke-width="2" />
-  <text class="sub halo" x="91.4" y="254.2">base model 46.8%</text>
+  <text class="tick" x="86.6" y="302.0" text-anchor="middle">20</text>
+  <text class="tick" x="133.1" y="302.0" text-anchor="middle">30</text>
+  <text class="tick" x="179.7" y="302.0" text-anchor="middle">40</text>
+  <text class="tick" x="226.3" y="302.0" text-anchor="middle">50</text>
+  <text class="tick" x="272.9" y="302.0" text-anchor="middle">60</text>
+  <text class="tick" x="319.4" y="302.0" text-anchor="middle">70</text>
+  <text class="tick" x="366.0" y="302.0" text-anchor="middle">80</text>
+  <text class="sub" x="203.0" y="324.0" text-anchor="middle">training step</text>
+  <polyline points="40.0,243.7 86.6,159.0 133.1,142.3 179.7,181.2 226.3,202.0 272.9,189.5 319.4,202.0 366.0,217.3" fill="none" stroke="#eb6834" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" />
+  <circle cx="366.0" cy="217.3" r="4.5" fill="#eb6834" stroke="#fcfcfc" stroke-width="2" />
+  <polyline points="40.0,236.8 86.6,188.2 133.1,152.0 179.7,156.2 226.3,161.8 272.9,143.7 319.4,182.7 366.0,195.2" fill="none" stroke="#1baf7a" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" />
+  <circle cx="366.0" cy="195.2" r="4.5" fill="#1baf7a" stroke="#fcfcfc" stroke-width="2" />
+  <polyline points="40.0,217.3 86.6,177.0 133.1,170.2 179.7,188.2 226.3,150.7 272.9,157.7 319.4,110.3 366.0,134.0" fill="none" stroke="#2a78d6" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" />
+  <circle cx="366.0" cy="134.0" r="4.5" fill="#2a78d6" stroke="#fcfcfc" stroke-width="2" />
+  <text class="sub halo" x="90.6" y="254.2">base model 46.8%</text>
 </svg>

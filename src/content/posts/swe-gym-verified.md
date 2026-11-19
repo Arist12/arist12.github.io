@@ -89,24 +89,24 @@ return `OrderedDict` rows, and this patch returns plain dicts. No test checks `i
 Asking a model whether a test is fair produces opinions. We wanted evidence, so every suspicion has to be reproduced
 by running code.
 
-- **False negatives.** Two LLM families, Claude and GPT, read every assertion of the failing tests against the issue.
-  If one of them finds a detail that the issue never specifies, a coding agent writes a *witness*: a second fix that
-  follows the issue but differs in exactly that detail. We run the tests on it. Only if they reject it does the task
-  count as mislabelled.
-- **False positives.** Both families must call a passing patch wrong, and a *counterexample* must show it: a script
+- **False negatives.** Two frontier models from different families, `claude-opus-5.5` and `gpt-6.1-sol`, read every
+  assertion of the failing tests against the issue. If one of them finds a detail that the issue never specifies, a
+  coding agent writes a *witness*: a second fix that follows the issue but differs in exactly that detail. We run the
+  tests on it. Only if they reject it does the task count as mislabelled.
+- **False positives.** Both models must call a passing patch wrong, and a *counterexample* must show it: a script
   that behaves the same on the original code and on the reference fix, and differently on the patch.
 
-The judges never see how often a model solves a task. When the only problem is a missing requirement, we add it to
+Neither model ever sees how often a task is solved. When the only problem is a missing requirement, we add it to
 the issue instead of throwing the task away.
 
 :::figure
 <div><picture><source media="(max-width: 520px)" srcset="/images/swe-gym-verified/audit-outcomes-narrow.svg"><img src="/images/swe-gym-verified/audit-outcomes.svg" alt="Of the 2,263 tasks whose audit finished, 1,176 are removed, 903 are released unchanged and 184 are released with a repaired issue. The 1,087 released tasks form SWE-Gym-Verified."></picture></div>
 
-What happened to the 2,265 tasks we audited. The 1,087 that remain are SWE-Gym-Verified.
+What happened to the 2,265 tasks we audited (two audits did not finish). The 1,087 that remain are SWE-Gym-Verified.
 :::
 
 :::note[What "Verified" means here]
-Two LLM families rated every assertion, and every flagged one was tested by execution. Humans did not review every
+The two models rated every assertion, and every flagged one was tested by execution. Humans did not review every
 task, as they did for SWE-bench Verified. We did label a blind sample by hand, and agreed with three out of four
 flags.
 :::
@@ -229,7 +229,8 @@ tasks does not improve on the base model at all, and the filter makes it worse.
 :::figure
 <div><picture><source media="(max-width: 520px)" srcset="/images/swe-gym-verified/dev-curves-narrow.svg"><img src="/images/swe-gym-verified/dev-curves.svg" alt="Pass@1 on the 100-task development split at training steps 10 to 80, mean of three seeds. The three sets stay close through step 40. At step 80 Clean is at 53.0%, Orig+Filter at 49.3% and Orig at 48.0%; the base model is at 46.8%."></picture></div>
 
-Pass@1 on a 100-task development split during training. The shaded band marks steps 50 to 80.
+Pass@1 on a 100-task development split during training, mean of three runs. Over steps 50 to 80, the shaded band,
+Clean is 3.9 points ahead of Orig on average.
 :::
 
 The gap opens late. The three sets stay close through step 40, and then the original tasks fade: Orig peaks at steps

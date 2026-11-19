@@ -1,6 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 270" role="img" aria-label="A two-by-two table of patch against reward. A correct fix with reward 1 and a wrong patch with reward 0 are labelled correctly. A correct fix with reward 0 is a false negative: 55% of the audited tasks have a test that does this. A wrong patch with reward 1 is a false positive: 26% of the passing patches.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 284" role="img" aria-label="A two-by-two table of patch against reward. A correct fix with reward 1 and a wrong patch with reward 0 are labelled correctly. A correct fix with reward 0 is a false negative: 55% of the audited tasks have a test that does this. A wrong patch with reward 1 is a false positive: 26% of the passing patches.">
   <style>
-    text { font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; fill: #3c3f47; }
+    @font-face { font-family: "Fig Inter"; font-weight: 400; src: url(data:font/woff2;base64,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) format("woff2"); }
+    @font-face { font-family: "Fig Inter"; font-weight: 650; src: url(data:font/woff2;base64,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) format("woff2"); }
+    text { font-family: "Fig Inter", Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; fill: #3c3f47; }
     .title { font-size: 15px; font-weight: 650; fill: #25262a; }
     .sub { font-size: 13px; fill: #74767e; }
     .lab { font-size: 14px; }
@@ -13,25 +15,28 @@
     .axis { stroke: #c8cad0; stroke-width: 1; }
     .halo { paint-order: stroke; stroke: #fcfcfc; stroke-width: 5px; stroke-linejoin: round; }
   </style>
-  <text class="val" x="162.0" y="18.0" text-anchor="middle">tests pass: reward 1</text>
-  <text class="val" x="310.0" y="18.0" text-anchor="middle">tests fail: reward 0</text>
-  <text class="val" x="0.0" y="86.0">the patch</text>
-  <text class="val" x="0.0" y="104.0">is correct</text>
-  <rect x="92.0" y="34" width="140.0" height="112" rx="8" fill="#f3f4f6" />
-  <text class="sub" x="162.0" y="95.0" text-anchor="middle">labelled correctly</text>
-  <rect x="240.0" y="34" width="140.0" height="112" rx="8" fill="#fbe9e9" />
-  <text class="val" x="254.0" y="59" style="fill:#d03b3b">false negative</text>
-  <text class="lab" x="254.0" y="79.0">a correct fix is</text>
-  <text class="lab" x="254.0" y="96.0">rejected</text>
-  <text class="sub" x="254.0" y="115.0">55% of tasks</text>
-  <text class="val" x="0.0" y="206.0">the patch</text>
-  <text class="val" x="0.0" y="224.0">is wrong</text>
-  <rect x="92.0" y="154" width="140.0" height="112" rx="8" fill="#fbe9e9" />
-  <text class="val" x="106.0" y="179" style="fill:#d03b3b">false positive</text>
-  <text class="lab" x="106.0" y="199.0">a wrong patch is</text>
-  <text class="lab" x="106.0" y="216.0">accepted</text>
-  <text class="sub" x="106.0" y="235.0">26% of passing</text>
-  <text class="sub" x="106.0" y="251.0">patches</text>
-  <rect x="240.0" y="154" width="140.0" height="112" rx="8" fill="#f3f4f6" />
-  <text class="sub" x="310.0" y="215.0" text-anchor="middle">labelled correctly</text>
+  <text class="val" x="162.0" y="16.0" text-anchor="middle">tests pass</text>
+  <text class="sub" x="162.0" y="34.0" text-anchor="middle">reward 1</text>
+  <text class="val" x="310.0" y="16.0" text-anchor="middle">tests fail</text>
+  <text class="sub" x="310.0" y="34.0" text-anchor="middle">reward 0</text>
+  <text class="val" x="0.0" y="100.0">the patch</text>
+  <text class="val" x="0.0" y="118.0">is correct</text>
+  <rect x="92.0" y="48" width="140.0" height="112" rx="8" fill="#f3f4f6" />
+  <text class="sub" x="162.0" y="109.0" text-anchor="middle">labelled correctly</text>
+  <rect x="240.0" y="48" width="140.0" height="112" rx="8" fill="#fbe9e9" />
+  <text class="val" x="254.0" y="73.0" style="fill:#d03b3b">false negative</text>
+  <text class="lab" x="254.0" y="94.0">a correct fix is</text>
+  <text class="lab" x="254.0" y="112.0">rejected</text>
+  <text class="sub" x="254.0" y="131.0">55% of tasks</text>
+  <text class="sub" x="254.0" y="148.0">have such a test</text>
+  <text class="val" x="0.0" y="220.0">the patch</text>
+  <text class="val" x="0.0" y="238.0">is wrong</text>
+  <rect x="92.0" y="168" width="140.0" height="112" rx="8" fill="#fbe9e9" />
+  <text class="val" x="106.0" y="193.0" style="fill:#d03b3b">false positive</text>
+  <text class="lab" x="106.0" y="214.0">a wrong patch</text>
+  <text class="lab" x="106.0" y="232.0">is accepted</text>
+  <text class="sub" x="106.0" y="251.0">26% of passing</text>
+  <text class="sub" x="106.0" y="268.0">patches</text>
+  <rect x="240.0" y="168" width="140.0" height="112" rx="8" fill="#f3f4f6" />
+  <text class="sub" x="310.0" y="229.0" text-anchor="middle">labelled correctly</text>
 </svg>
