@@ -159,7 +159,7 @@ alike.
 :::figure
 <div><picture><source media="(max-width: 520px)" srcset="/images/swe-gym-verified/false-positives-narrow.svg"><img src="/images/swe-gym-verified/false-positives.svg" alt="Share of distinct passing patches that are wrong, by how many of eight attempts pass on the task: 27%, 27%, 36%, 36%, 28%, 21%, 29% and 19% for one to eight passes; 26% over all 1,854 patches."></picture></div>
 
-Wrong patches among the patches that pass, by how often the model solves the task. Whiskers are 95% intervals.
+Wrong patches among the patches that pass, by how often the model solves the task.
 :::
 
 ## Which errors train the model
