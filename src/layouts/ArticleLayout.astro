@@ -10,11 +10,13 @@ interface Props {
   title: string;
   description: string;
   date: Date;
+  /** Estimated reading time in minutes, from readingMinutes(). */
+  readingTime?: number;
   headings?: MarkdownHeading[];
   preview?: boolean;
   hero?: { src: string; narrow?: string; alt: string; caption?: string };
 }
-const { title, description, date, headings = [], preview = false, hero } = Astro.props;
+const { title, description, date, readingTime, headings = [], preview = false, hero } = Astro.props;
 // The contents column reads the view timelines of the sections; this ancestor makes their names visible to it.
 const timelines = headings
   .filter(heading => (heading.depth === 2 || heading.depth === 3) && heading.slug !== 'footnote-label')
@@ -29,7 +31,7 @@ const timelines = headings
         {preview && <p class="preview-label">Layout preview · unpublished</p>}
         <h1>{title}</h1>
         <p class="article-description">{description}</p>
-        <div class="article-meta"><span>{profile.name}</span><span aria-hidden="true">·</span><time datetime={date.toISOString()}>{formatDate(date)}</time></div>
+        <div class="article-meta"><span>{profile.name}</span><span aria-hidden="true">·</span><time datetime={date.toISOString()}>{formatDate(date)}</time>{readingTime && <><span aria-hidden="true">·</span><span>{readingTime} min read</span></>}</div>
       </header>
       {hero && (
         <figure class="article-hero">

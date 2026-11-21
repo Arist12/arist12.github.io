@@ -53,7 +53,8 @@ Write the article below the metadata using Markdown. Its URL will be
 - `/writing/` lists all articles, each as a card with its `cover`. The About page
   does not list them; Writing is reached from the navigation.
 - Articles share `src/layouts/ArticleLayout.astro`: title, description, author,
-  date, the optional `hero` figure, and a comfortable reading column. Once an
+  date, an estimated reading time (`readingMinutes()` in `src/lib/posts.ts`: prose at
+  230 words a minute plus 12 seconds per figure; code blocks are not counted), the optional `hero` figure, and a comfortable reading column. Once an
   article has three or more `##` headings, they are listed in a column beside the
   text that stays in view while reading, with a dot on the part being read
   (`###` headings structure the text but are not listed). The dot is driven by CSS scroll timelines, not by a script; browsers
