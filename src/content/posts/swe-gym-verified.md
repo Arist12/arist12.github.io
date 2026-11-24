@@ -285,7 +285,7 @@ what the model learns.
 As far as the reward goes, good data needs three things.
 
 1. **Every correct fix must get the reward.** Most tasks that a model never solves have a test that rejects correct
-   fixes. A filter that reads a low pass rate as difficulty mostly acts on label errors.
+   fixes. A filter that reads a zero pass rate as difficulty mostly acts on label errors.
 2. **The reward must vary for the right reason.** The errors that train the model sit in tasks where some attempts
    pass and some fail. A pass rate cannot see them. Checking the labels can.
 3. **Quality must be measured on held-out tasks**, at matched size and difficulty. Training reward is computed with
