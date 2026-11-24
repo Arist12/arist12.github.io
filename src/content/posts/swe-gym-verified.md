@@ -315,6 +315,27 @@ trainable = tasks.filter(
 - **Code**: [github.com/Arist12/SWE-Gym-Verified](https://github.com/Arist12/SWE-Gym-Verified) has the audit
   workflow with its prompts, the training sets and every held-out result.
 
+## Citation
+
+The paper has the full method and every result:
+[What Makes Good Data for Training Coding Agents? A Systematic Study on SWE-Gym](https://arxiv.org/abs/2611.30207).
+
+```bibtex
+@misc{zhang2026swegymverified,
+  title = {What Makes Good Data for Training Coding Agents?
+    A Systematic Study on {SWE-Gym}},
+  author = {Yikai Zhang and Mai Xu and Yunbei Zhang and
+    Qirui Jin and Kenan Li and Yuwen Jia and
+    Jinwei Yao and Xiangyu Zhang and Jielun Tan and
+    Jin Pan and Zijian Jin and Xiao Sun},
+  year = {2026},
+  eprint = {2611.30207},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.CL},
+  url = {https://arxiv.org/abs/2611.30207}
+}
+```
+
 [^swegym]: Pan et al. [Training Software Engineering Agents and Verifiers with SWE-Gym](https://arxiv.org/abs/2412.21139). ICML 2025.
 
 [^paichecker]: Wang, Xu and He. [PAIChecker: Uncovering and Checking PR-Issue Misalignment in SWE-Bench-Like Benchmarks](https://arxiv.org/abs/2607.28587). ASE 2026.
